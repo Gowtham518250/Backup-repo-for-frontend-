@@ -1,0 +1,19 @@
+RETAIL MIND — PRODUCTION HARDENING FIXED FILES
+
+Existing-file fixes included:
+- Product create/update/delete: backend-first confirmation and HTTP-aware fallback
+- Durable product deletion queue processing
+- Canonical inventory stock deduction + idempotency
+- Attendance reconciliation instead of backend-only replacement
+- Khata stable payment idempotency + user/shop scoped key storage
+- Flash Sale product/category scoping and expiry validation
+- Online order state refresh after accepted/dispatched actions
+- Daily Closing borrow/credit/Khata classification
+- Backup + LocalStorage secure business-data snapshot support
+- Sales restore cache refresh
+- Biometric registration exception handling
+- Worker ON_LEAVE normalization
+- Payment event ID collision reduction
+- Smart reorder date formatting/velocity normalization
+
+AI Copilot/AI service files were not modified.

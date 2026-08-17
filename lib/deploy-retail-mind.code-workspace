@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../deploy-retail-mind"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "lib"
+	}
+}

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "123456789012",
+    "firebase_url": "https://retail-mind-dev.firebaseio.com",
+    "project_id": "retail-mind-dev",
+    "storage_bucket": "retail-mind-dev.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:123456789012:android:abcdef123456789012abcd",
+        "android_client_info": {
+          "package_name": "com.retailmind.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "123456789012-abcdefghijklmnopqrstuvwxyz1234567.apps.googleusercontent.com",
+          "client_type": 3,
+          "client_secret": "abcdef1234567890abcdef"
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbcdef1234567890abcdef1234567890ABC"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "123456789012-abcdefghijklmnopqrstuvwxyz1234567.apps.googleusercontent.com",
+              "client_type": 3,
+              "client_secret": "abcdef1234567890abcdef"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

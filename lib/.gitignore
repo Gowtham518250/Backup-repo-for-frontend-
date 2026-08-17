@@ -1,0 +1,25 @@
+# Secrets — never commit real credentials
+email_secrets.local.dart
+*.env
+.env.*
+
+# Debug / crash logs
+*.log
+debug-*.log
+flutter_*.log
+errors*.txt
+
+# Backup files
+*.bak
+
+# IDE
+.idea/
+.vscode/
+
+# Build artifacts (only relevant once this is restored as a full Flutter project)
+build/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+pubspec.lock

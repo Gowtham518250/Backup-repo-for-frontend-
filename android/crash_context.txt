@@ -1,0 +1,1469 @@
+﻿
+  --------- beginning of crash
+  08-11 06:44:48.422  6771  6771 E AndroidRuntime: FATAL EXCEPTION: main
+  08-11 06:44:48.422  6771  6771 E AndroidRuntime: Process: 
+com.example.retail_mind, PID: 6771
+> 08-11 06:44:48.422  6771  6771 E AndroidRuntime: java.lang.RuntimeException: 
+Unable to get provider androidx.startup.InitializationProvider: a5.a: 
+java.lang.RuntimeException: Failed to create an instance of 
+androidx.work.impl.WorkDatabase
+  08-11 06:44:48.422  6771  6771 E AndroidRuntime: 	at 
+android.app.ActivityThread.installProvider(ActivityThread.java:9511)
+  08-11 06:44:48.422  6771  6771 E AndroidRuntime: 	at 
+android.app.ActivityThread.installContentProviders(ActivityThread.java:9015)
+  08-11 06:44:48.422  6771  6771 E AndroidRuntime: 	at 
+android.app.ActivityThread.handleBindApplication(ActivityThread.java:8645)
+  08-11 06:44:48.422  6771  6771 E AndroidRuntime: 	at android.app.ActivityThre
+ad.-$$Nest$mhandleBindApplication(ActivityThread.java:0)
+  08-11 06:44:48.422  6771  6771 E AndroidRuntime: 	at 
+android.app.ActivityThread$H.handleMessage(ActivityThread.java:2813)
+  08-11 06:44:48.422  6771  6771 E AndroidRuntime: 	at 
+android.os.Handler.dispatchMessage(Handler.java:115)
+  08-11 06:44:48.422  6771  6771 E AndroidRuntime: 	at 
+android.os.Looper.loopOnce(Looper.java:302)
+  08-11 06:44:48.422  6771  6771 E AndroidRuntime: 	at 
+android.os.Looper.loop(Looper.java:412)
+  08-11 06:44:48.422  6771  6771 E AndroidRuntime: 	at 
+android.app.ActivityThread.main(ActivityThread.java:9998)
+  08-11 06:44:48.422  6771  6771 E AndroidRuntime: 	at 
+java.lang.reflect.Method.invoke(Native Method)
+  08-11 06:44:48.422  6771  6771 E AndroidRuntime: 	at com.android.internal.os.
+RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:613)
+  08-11 06:44:48.422  6771  6771 E AndroidRuntime: 	at 
+com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1074)
+> 08-11 06:44:48.422  6771  6771 E AndroidRuntime: Caused by: a5.a: 
+java.lang.RuntimeException: Failed to create an instance of 
+androidx.work.impl.WorkDatabase
+  08-11 06:44:48.422  6771  6771 E AndroidRuntime: 	at n3.a.b(r8-map-id-35e6679
+20c1f273f9fce7cdbd3baa6ad79fd2e0c1cf6b8022cf6406aa7d4b658:105)
+  08-11 06:44:48.422  6771  6771 E AndroidRuntime: 	at n3.a.a(r8-map-id-35e6679
+20c1f273f9fce7cdbd3baa6ad79fd2e0c1cf6b8022cf6406aa7d4b658:84)
+  08-11 06:44:48.422  6771  6771 E AndroidRuntime: 	at androidx.startup.Initial
+izationProvider.onCreate(r8-map-id-35e667920c1f273f9fce7cdbd3baa6ad79fd2e0c1cf6
+b8022cf6406aa7d4b658:55)
+  08-11 06:44:48.422  6771  6771 E AndroidRuntime: 	at 
+android.content.ContentProvider.attachInfo(ContentProvider.java:2707)
+  08-11 06:44:48.422  6771  6771 E AndroidRuntime: 	at 
+android.content.ContentProvider.attachInfo(ContentProvider.java:2676)
+  08-11 06:44:48.422  6771  6771 E AndroidRuntime: 	at 
+android.app.ActivityThread.installProvider(ActivityThread.java:9506)
+  08-11 06:44:48.422  6771  6771 E AndroidRuntime: 	... 11 more
+> 08-11 06:44:48.422  6771  6771 E AndroidRuntime: Caused by: 
+java.lang.RuntimeException: Failed to create an instance of 
+androidx.work.impl.WorkDatabase
+  08-11 06:44:48.422  6771  6771 E AndroidRuntime: 	at com.google.firebase.fire
+store.f.k(r8-map-id-35e667920c1f273f9fce7cdbd3baa6ad79fd2e0c1cf6b8022cf6406aa7d
+4b658:3)
+  08-11 06:44:48.422  6771  6771 E AndroidRuntime: 	at b4.m.<init>(r8-map-id-35
+e667920c1f273f9fce7cdbd3baa6ad79fd2e0c1cf6b8022cf6406aa7d4b658:601)
+  08-11 06:44:48.422  6771  6771 E AndroidRuntime: 	at androidx.work.WorkManage
+rInitializer.b(r8-map-id-35e667920c1f273f9fce7cdbd3baa6ad79fd2e0c1cf6b8022cf640
+6aa7d4b658:69)
+  08-11 06:44:48.422  6771  6771 E AndroidRuntime: 	at n3.a.b(r8-map-id-35e6679
+20c1f273f9fce7cdbd3baa6ad79fd2e0c1cf6b8022cf6406aa7d4b658:92)
+  08-11 06:44:48.422  6771  6771 E AndroidRuntime: 	... 16 more
+  08-11 06:44:56.748  7931  7931 E AndroidRuntime: FATAL EXCEPTION: main
+  08-11 06:44:56.748  7931  7931 E AndroidRuntime: Process: 
+com.example.retail_mind, PID: 7931
+> 08-11 06:44:56.748  7931  7931 E AndroidRuntime: java.lang.RuntimeException: 
+Unable to get provider androidx.startup.InitializationProvider: a5.a: 
+java.lang.RuntimeException: Failed to create an instance of 
+androidx.work.impl.WorkDatabase
+  08-11 06:44:56.748  7931  7931 E AndroidRuntime: 	at 
+android.app.ActivityThread.installProvider(ActivityThread.java:9511)
+  08-11 06:44:56.748  7931  7931 E AndroidRuntime: 	at 
+android.app.ActivityThread.installContentProviders(ActivityThread.java:9015)
+  08-11 06:44:56.748  7931  7931 E AndroidRuntime: 	at 
+android.app.ActivityThread.handleBindApplication(ActivityThread.java:8645)
+  08-11 06:44:56.748  7931  7931 E AndroidRuntime: 	at android.app.ActivityThre
+ad.-$$Nest$mhandleBindApplication(ActivityThread.java:0)
+  08-11 06:44:56.748  7931  7931 E AndroidRuntime: 	at 
+android.app.ActivityThread$H.handleMessage(ActivityThread.java:2813)
+  08-11 06:44:56.748  7931  7931 E AndroidRuntime: 	at 
+android.os.Handler.dispatchMessage(Handler.java:115)
+  08-11 06:44:56.748  7931  7931 E AndroidRuntime: 	at 
+android.os.Looper.loopOnce(Looper.java:302)
+  08-11 06:44:56.748  7931  7931 E AndroidRuntime: 	at 
+android.os.Looper.loop(Looper.java:412)
+  08-11 06:44:56.748  7931  7931 E AndroidRuntime: 	at 
+android.app.ActivityThread.main(ActivityThread.java:9998)
+  08-11 06:44:56.748  7931  7931 E AndroidRuntime: 	at 
+java.lang.reflect.Method.invoke(Native Method)
+  08-11 06:44:56.748  7931  7931 E AndroidRuntime: 	at com.android.internal.os.
+RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:613)
+  08-11 06:44:56.748  7931  7931 E AndroidRuntime: 	at 
+com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1074)
+> 08-11 06:44:56.748  7931  7931 E AndroidRuntime: Caused by: a5.a: 
+java.lang.RuntimeException: Failed to create an instance of 
+androidx.work.impl.WorkDatabase
+  08-11 06:44:56.748  7931  7931 E AndroidRuntime: 	at n3.a.b(r8-map-id-35e6679
+20c1f273f9fce7cdbd3baa6ad79fd2e0c1cf6b8022cf6406aa7d4b658:105)
+  08-11 06:44:56.748  7931  7931 E AndroidRuntime: 	at n3.a.a(r8-map-id-35e6679
+20c1f273f9fce7cdbd3baa6ad79fd2e0c1cf6b8022cf6406aa7d4b658:84)
+  08-11 06:44:56.748  7931  7931 E AndroidRuntime: 	at androidx.startup.Initial
+izationProvider.onCreate(r8-map-id-35e667920c1f273f9fce7cdbd3baa6ad79fd2e0c1cf6
+b8022cf6406aa7d4b658:55)
+  08-11 06:44:56.748  7931  7931 E AndroidRuntime: 	at 
+android.content.ContentProvider.attachInfo(ContentProvider.java:2707)
+  08-11 06:44:56.748  7931  7931 E AndroidRuntime: 	at 
+android.content.ContentProvider.attachInfo(ContentProvider.java:2676)
+  08-11 06:44:56.748  7931  7931 E AndroidRuntime: 	at 
+android.app.ActivityThread.installProvider(ActivityThread.java:9506)
+  08-11 06:44:56.748  7931  7931 E AndroidRuntime: 	... 11 more
+> 08-11 06:44:56.748  7931  7931 E AndroidRuntime: Caused by: 
+java.lang.RuntimeException: Failed to create an instance of 
+androidx.work.impl.WorkDatabase
+  08-11 06:44:56.748  7931  7931 E AndroidRuntime: 	at com.google.firebase.fire
+store.f.k(r8-map-id-35e667920c1f273f9fce7cdbd3baa6ad79fd2e0c1cf6b8022cf6406aa7d
+4b658:3)
+  08-11 06:44:56.748  7931  7931 E AndroidRuntime: 	at b4.m.<init>(r8-map-id-35
+e667920c1f273f9fce7cdbd3baa6ad79fd2e0c1cf6b8022cf6406aa7d4b658:601)
+  08-11 06:44:56.748  7931  7931 E AndroidRuntime: 	at androidx.work.WorkManage
+rInitializer.b(r8-map-id-35e667920c1f273f9fce7cdbd3baa6ad79fd2e0c1cf6b8022cf640
+6aa7d4b658:69)
+  08-11 06:44:56.748  7931  7931 E AndroidRuntime: 	at n3.a.b(r8-map-id-35e6679
+20c1f273f9fce7cdbd3baa6ad79fd2e0c1cf6b8022cf6406aa7d4b658:92)
+  08-11 06:44:56.748  7931  7931 E AndroidRuntime: 	... 16 more
+  08-11 06:50:58.116 12492 12492 E AndroidRuntime: FATAL EXCEPTION: main
+  08-11 06:50:58.116 12492 12492 E AndroidRuntime: Process: 
+com.example.retail_mind, PID: 12492
+> 08-11 06:50:58.116 12492 12492 E AndroidRuntime: java.lang.RuntimeException: 
+Unable to get provider androidx.startup.InitializationProvider: a5.a: 
+java.lang.RuntimeException: Failed to create an instance of 
+androidx.work.impl.WorkDatabase
+  08-11 06:50:58.116 12492 12492 E AndroidRuntime: 	at 
+android.app.ActivityThread.installProvider(ActivityThread.java:9511)
+  08-11 06:50:58.116 12492 12492 E AndroidRuntime: 	at 
+android.app.ActivityThread.installContentProviders(ActivityThread.java:9015)
+  08-11 06:50:58.116 12492 12492 E AndroidRuntime: 	at 
+android.app.ActivityThread.handleBindApplication(ActivityThread.java:8645)
+  08-11 06:50:58.116 12492 12492 E AndroidRuntime: 	at android.app.ActivityThre
+ad.-$$Nest$mhandleBindApplication(ActivityThread.java:0)
+  08-11 06:50:58.116 12492 12492 E AndroidRuntime: 	at 
+android.app.ActivityThread$H.handleMessage(ActivityThread.java:2813)
+  08-11 06:50:58.116 12492 12492 E AndroidRuntime: 	at 
+android.os.Handler.dispatchMessage(Handler.java:115)
+  08-11 06:50:58.116 12492 12492 E AndroidRuntime: 	at 
+android.os.Looper.loopOnce(Looper.java:302)
+  08-11 06:50:58.116 12492 12492 E AndroidRuntime: 	at 
+android.os.Looper.loop(Looper.java:412)
+  08-11 06:50:58.116 12492 12492 E AndroidRuntime: 	at 
+android.app.ActivityThread.main(ActivityThread.java:9998)
+  08-11 06:50:58.116 12492 12492 E AndroidRuntime: 	at 
+java.lang.reflect.Method.invoke(Native Method)
+  08-11 06:50:58.116 12492 12492 E AndroidRuntime: 	at com.android.internal.os.
+RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:613)
+  08-11 06:50:58.116 12492 12492 E AndroidRuntime: 	at 
+com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1074)
+> 08-11 06:50:58.116 12492 12492 E AndroidRuntime: Caused by: a5.a: 
+java.lang.RuntimeException: Failed to create an instance of 
+androidx.work.impl.WorkDatabase
+  08-11 06:50:58.116 12492 12492 E AndroidRuntime: 	at n3.a.b(r8-map-id-35e6679
+20c1f273f9fce7cdbd3baa6ad79fd2e0c1cf6b8022cf6406aa7d4b658:105)
+  08-11 06:50:58.116 12492 12492 E AndroidRuntime: 	at n3.a.a(r8-map-id-35e6679
+20c1f273f9fce7cdbd3baa6ad79fd2e0c1cf6b8022cf6406aa7d4b658:84)
+  08-11 06:50:58.116 12492 12492 E AndroidRuntime: 	at androidx.startup.Initial
+izationProvider.onCreate(r8-map-id-35e667920c1f273f9fce7cdbd3baa6ad79fd2e0c1cf6
+b8022cf6406aa7d4b658:55)
+  08-11 06:50:58.116 12492 12492 E AndroidRuntime: 	at 
+android.content.ContentProvider.attachInfo(ContentProvider.java:2707)
+  08-11 06:50:58.116 12492 12492 E AndroidRuntime: 	at 
+android.content.ContentProvider.attachInfo(ContentProvider.java:2676)
+  08-11 06:50:58.116 12492 12492 E AndroidRuntime: 	at 
+android.app.ActivityThread.installProvider(ActivityThread.java:9506)
+  08-11 06:50:58.116 12492 12492 E AndroidRuntime: 	... 11 more
+> 08-11 06:50:58.116 12492 12492 E AndroidRuntime: Caused by: 
+java.lang.RuntimeException: Failed to create an instance of 
+androidx.work.impl.WorkDatabase
+  08-11 06:50:58.116 12492 12492 E AndroidRuntime: 	at com.google.firebase.fire
+store.f.k(r8-map-id-35e667920c1f273f9fce7cdbd3baa6ad79fd2e0c1cf6b8022cf6406aa7d
+4b658:3)
+  08-11 06:50:58.116 12492 12492 E AndroidRuntime: 	at b4.m.<init>(r8-map-id-35
+e667920c1f273f9fce7cdbd3baa6ad79fd2e0c1cf6b8022cf6406aa7d4b658:601)
+  08-11 06:50:58.116 12492 12492 E AndroidRuntime: 	at androidx.work.WorkManage
+rInitializer.b(r8-map-id-35e667920c1f273f9fce7cdbd3baa6ad79fd2e0c1cf6b8022cf640
+6aa7d4b658:69)
+  08-11 06:50:58.116 12492 12492 E AndroidRuntime: 	at n3.a.b(r8-map-id-35e6679
+20c1f273f9fce7cdbd3baa6ad79fd2e0c1cf6b8022cf6406aa7d4b658:92)
+  08-11 06:50:58.116 12492 12492 E AndroidRuntime: 	... 16 more
+  08-11 06:51:00.266 12753 12753 E AndroidRuntime: FATAL EXCEPTION: main
+  08-11 06:51:00.266 12753 12753 E AndroidRuntime: Process: 
+com.example.retail_mind, PID: 12753
+> 08-11 06:51:00.266 12753 12753 E AndroidRuntime: java.lang.RuntimeException: 
+Unable to get provider androidx.startup.InitializationProvider: a5.a: 
+java.lang.RuntimeException: Failed to create an instance of 
+androidx.work.impl.WorkDatabase
+  08-11 06:51:00.266 12753 12753 E AndroidRuntime: 	at 
+android.app.ActivityThread.installProvider(ActivityThread.java:9511)
+  08-11 06:51:00.266 12753 12753 E AndroidRuntime: 	at 
+android.app.ActivityThread.installContentProviders(ActivityThread.java:9015)
+  08-11 06:51:00.266 12753 12753 E AndroidRuntime: 	at 
+android.app.ActivityThread.handleBindApplication(ActivityThread.java:8645)
+  08-11 06:51:00.266 12753 12753 E AndroidRuntime: 	at android.app.ActivityThre
+ad.-$$Nest$mhandleBindApplication(ActivityThread.java:0)
+  08-11 06:51:00.266 12753 12753 E AndroidRuntime: 	at 
+android.app.ActivityThread$H.handleMessage(ActivityThread.java:2813)
+  08-11 06:51:00.266 12753 12753 E AndroidRuntime: 	at 
+android.os.Handler.dispatchMessage(Handler.java:115)
+  08-11 06:51:00.266 12753 12753 E AndroidRuntime: 	at 
+android.os.Looper.loopOnce(Looper.java:302)
+  08-11 06:51:00.266 12753 12753 E AndroidRuntime: 	at 
+android.os.Looper.loop(Looper.java:412)
+  08-11 06:51:00.266 12753 12753 E AndroidRuntime: 	at 
+android.app.ActivityThread.main(ActivityThread.java:9998)
+  08-11 06:51:00.266 12753 12753 E AndroidRuntime: 	at 
+java.lang.reflect.Method.invoke(Native Method)
+  08-11 06:51:00.266 12753 12753 E AndroidRuntime: 	at com.android.internal.os.
+RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:613)
+  08-11 06:51:00.266 12753 12753 E AndroidRuntime: 	at 
+com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1074)
+> 08-11 06:51:00.266 12753 12753 E AndroidRuntime: Caused by: a5.a: 
+java.lang.RuntimeException: Failed to create an instance of 
+androidx.work.impl.WorkDatabase
+  08-11 06:51:00.266 12753 12753 E AndroidRuntime: 	at n3.a.b(r8-map-id-35e6679
+20c1f273f9fce7cdbd3baa6ad79fd2e0c1cf6b8022cf6406aa7d4b658:105)
+  08-11 06:51:00.266 12753 12753 E AndroidRuntime: 	at n3.a.a(r8-map-id-35e6679
+20c1f273f9fce7cdbd3baa6ad79fd2e0c1cf6b8022cf6406aa7d4b658:84)
+  08-11 06:51:00.266 12753 12753 E AndroidRuntime: 	at androidx.startup.Initial
+izationProvider.onCreate(r8-map-id-35e667920c1f273f9fce7cdbd3baa6ad79fd2e0c1cf6
+b8022cf6406aa7d4b658:55)
+  08-11 06:51:00.266 12753 12753 E AndroidRuntime: 	at 
+android.content.ContentProvider.attachInfo(ContentProvider.java:2707)
+  08-11 06:51:00.266 12753 12753 E AndroidRuntime: 	at 
+android.content.ContentProvider.attachInfo(ContentProvider.java:2676)
+  08-11 06:51:00.266 12753 12753 E AndroidRuntime: 	at 
+android.app.ActivityThread.installProvider(ActivityThread.java:9506)
+  08-11 06:51:00.266 12753 12753 E AndroidRuntime: 	... 11 more
+> 08-11 06:51:00.266 12753 12753 E AndroidRuntime: Caused by: 
+java.lang.RuntimeException: Failed to create an instance of 
+androidx.work.impl.WorkDatabase
+  08-11 06:51:00.266 12753 12753 E AndroidRuntime: 	at com.google.firebase.fire
+store.f.k(r8-map-id-35e667920c1f273f9fce7cdbd3baa6ad79fd2e0c1cf6b8022cf6406aa7d
+4b658:3)
+  08-11 06:51:00.266 12753 12753 E AndroidRuntime: 	at b4.m.<init>(r8-map-id-35
+e667920c1f273f9fce7cdbd3baa6ad79fd2e0c1cf6b8022cf6406aa7d4b658:601)
+  08-11 06:51:00.266 12753 12753 E AndroidRuntime: 	at androidx.work.WorkManage
+rInitializer.b(r8-map-id-35e667920c1f273f9fce7cdbd3baa6ad79fd2e0c1cf6b8022cf640
+6aa7d4b658:69)
+  08-11 06:51:00.266 12753 12753 E AndroidRuntime: 	at n3.a.b(r8-map-id-35e6679
+20c1f273f9fce7cdbd3baa6ad79fd2e0c1cf6b8022cf6406aa7d4b658:92)
+  08-11 06:51:00.266 12753 12753 E AndroidRuntime: 	... 16 more
+  08-11 06:52:29.609 13973 13973 E AndroidRuntime: FATAL EXCEPTION: main
+  08-11 06:52:29.609 13973 13973 E AndroidRuntime: Process: 
+com.example.retail_mind, PID: 13973
+> 08-11 06:52:29.609 13973 13973 E AndroidRuntime: java.lang.RuntimeException: 
+Unable to get provider androidx.startup.InitializationProvider: a5.a: 
+java.lang.RuntimeException: Failed to create an instance of 
+androidx.work.impl.WorkDatabase
+  08-11 06:52:29.609 13973 13973 E AndroidRuntime: 	at 
+android.app.ActivityThread.installProvider(ActivityThread.java:9511)
+  08-11 06:52:29.609 13973 13973 E AndroidRuntime: 	at 
+android.app.ActivityThread.installContentProviders(ActivityThread.java:9015)
+  08-11 06:52:29.609 13973 13973 E AndroidRuntime: 	at 
+android.app.ActivityThread.handleBindApplication(ActivityThread.java:8645)
+  08-11 06:52:29.609 13973 13973 E AndroidRuntime: 	at android.app.ActivityThre
+ad.-$$Nest$mhandleBindApplication(ActivityThread.java:0)
+  08-11 06:52:29.609 13973 13973 E AndroidRuntime: 	at 
+android.app.ActivityThread$H.handleMessage(ActivityThread.java:2813)
+  08-11 06:52:29.609 13973 13973 E AndroidRuntime: 	at 
+android.os.Handler.dispatchMessage(Handler.java:115)
+  08-11 06:52:29.609 13973 13973 E AndroidRuntime: 	at 
+android.os.Looper.loopOnce(Looper.java:302)
+  08-11 06:52:29.609 13973 13973 E AndroidRuntime: 	at 
+android.os.Looper.loop(Looper.java:412)
+  08-11 06:52:29.609 13973 13973 E AndroidRuntime: 	at 
+android.app.ActivityThread.main(ActivityThread.java:9998)
+  08-11 06:52:29.609 13973 13973 E AndroidRuntime: 	at 
+java.lang.reflect.Method.invoke(Native Method)
+  08-11 06:52:29.609 13973 13973 E AndroidRuntime: 	at com.android.internal.os.
+RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:613)
+  08-11 06:52:29.609 13973 13973 E AndroidRuntime: 	at 
+com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1074)
+> 08-11 06:52:29.609 13973 13973 E AndroidRuntime: Caused by: a5.a: 
+java.lang.RuntimeException: Failed to create an instance of 
+androidx.work.impl.WorkDatabase
+  08-11 06:52:29.609 13973 13973 E AndroidRuntime: 	at n3.a.b(r8-map-id-35e6679
+20c1f273f9fce7cdbd3baa6ad79fd2e0c1cf6b8022cf6406aa7d4b658:105)
+  08-11 06:52:29.609 13973 13973 E AndroidRuntime: 	at n3.a.a(r8-map-id-35e6679
+20c1f273f9fce7cdbd3baa6ad79fd2e0c1cf6b8022cf6406aa7d4b658:84)
+  08-11 06:52:29.609 13973 13973 E AndroidRuntime: 	at androidx.startup.Initial
+izationProvider.onCreate(r8-map-id-35e667920c1f273f9fce7cdbd3baa6ad79fd2e0c1cf6
+b8022cf6406aa7d4b658:55)
+  08-11 06:52:29.609 13973 13973 E AndroidRuntime: 	at 
+android.content.ContentProvider.attachInfo(ContentProvider.java:2707)
+  08-11 06:52:29.609 13973 13973 E AndroidRuntime: 	at 
+android.content.ContentProvider.attachInfo(ContentProvider.java:2676)
+  08-11 06:52:29.609 13973 13973 E AndroidRuntime: 	at 
+android.app.ActivityThread.installProvider(ActivityThread.java:9506)
+  08-11 06:52:29.609 13973 13973 E AndroidRuntime: 	... 11 more
+> 08-11 06:52:29.609 13973 13973 E AndroidRuntime: Caused by: 
+java.lang.RuntimeException: Failed to create an instance of 
+androidx.work.impl.WorkDatabase
+  08-11 06:52:29.609 13973 13973 E AndroidRuntime: 	at com.google.firebase.fire
+store.f.k(r8-map-id-35e667920c1f273f9fce7cdbd3baa6ad79fd2e0c1cf6b8022cf6406aa7d
+4b658:3)
+  08-11 06:52:29.609 13973 13973 E AndroidRuntime: 	at b4.m.<init>(r8-map-id-35
+e667920c1f273f9fce7cdbd3baa6ad79fd2e0c1cf6b8022cf6406aa7d4b658:601)
+  08-11 06:52:29.609 13973 13973 E AndroidRuntime: 	at androidx.work.WorkManage
+rInitializer.b(r8-map-id-35e667920c1f273f9fce7cdbd3baa6ad79fd2e0c1cf6b8022cf640
+6aa7d4b658:69)
+  08-11 06:52:29.609 13973 13973 E AndroidRuntime: 	at n3.a.b(r8-map-id-35e6679
+20c1f273f9fce7cdbd3baa6ad79fd2e0c1cf6b8022cf6406aa7d4b658:92)
+  08-11 06:52:29.609 13973 13973 E AndroidRuntime: 	... 16 more
+  08-11 06:52:31.270 14020 14020 E AndroidRuntime: FATAL EXCEPTION: main
+  08-11 06:52:31.270 14020 14020 E AndroidRuntime: Process: 
+com.example.retail_mind, PID: 14020
+> 08-11 06:52:31.270 14020 14020 E AndroidRuntime: java.lang.RuntimeException: 
+Unable to get provider androidx.startup.InitializationProvider: a5.a: 
+java.lang.RuntimeException: Failed to create an instance of 
+androidx.work.impl.WorkDatabase
+  08-11 06:52:31.270 14020 14020 E AndroidRuntime: 	at 
+android.app.ActivityThread.installProvider(ActivityThread.java:9511)
+  08-11 06:52:31.270 14020 14020 E AndroidRuntime: 	at 
+android.app.ActivityThread.installContentProviders(ActivityThread.java:9015)
+  08-11 06:52:31.270 14020 14020 E AndroidRuntime: 	at 
+android.app.ActivityThread.handleBindApplication(ActivityThread.java:8645)
+  08-11 06:52:31.270 14020 14020 E AndroidRuntime: 	at android.app.ActivityThre
+ad.-$$Nest$mhandleBindApplication(ActivityThread.java:0)
+  08-11 06:52:31.270 14020 14020 E AndroidRuntime: 	at 
+android.app.ActivityThread$H.handleMessage(ActivityThread.java:2813)
+  08-11 06:52:31.270 14020 14020 E AndroidRuntime: 	at 
+android.os.Handler.dispatchMessage(Handler.java:115)
+  08-11 06:52:31.270 14020 14020 E AndroidRuntime: 	at 
+android.os.Looper.loopOnce(Looper.java:302)
+  08-11 06:52:31.270 14020 14020 E AndroidRuntime: 	at 
+android.os.Looper.loop(Looper.java:412)
+  08-11 06:52:31.270 14020 14020 E AndroidRuntime: 	at 
+android.app.ActivityThread.main(ActivityThread.java:9998)
+  08-11 06:52:31.270 14020 14020 E AndroidRuntime: 	at 
+java.lang.reflect.Method.invoke(Native Method)
+  08-11 06:52:31.270 14020 14020 E AndroidRuntime: 	at com.android.internal.os.
+RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:613)
+  08-11 06:52:31.270 14020 14020 E AndroidRuntime: 	at 
+com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1074)
+> 08-11 06:52:31.270 14020 14020 E AndroidRuntime: Caused by: a5.a: 
+java.lang.RuntimeException: Failed to create an instance of 
+androidx.work.impl.WorkDatabase
+  08-11 06:52:31.270 14020 14020 E AndroidRuntime: 	at n3.a.b(r8-map-id-35e6679
+20c1f273f9fce7cdbd3baa6ad79fd2e0c1cf6b8022cf6406aa7d4b658:105)
+  08-11 06:52:31.270 14020 14020 E AndroidRuntime: 	at n3.a.a(r8-map-id-35e6679
+20c1f273f9fce7cdbd3baa6ad79fd2e0c1cf6b8022cf6406aa7d4b658:84)
+  08-11 06:52:31.270 14020 14020 E AndroidRuntime: 	at androidx.startup.Initial
+izationProvider.onCreate(r8-map-id-35e667920c1f273f9fce7cdbd3baa6ad79fd2e0c1cf6
+b8022cf6406aa7d4b658:55)
+  08-11 06:52:31.270 14020 14020 E AndroidRuntime: 	at 
+android.content.ContentProvider.attachInfo(ContentProvider.java:2707)
+  08-11 06:52:31.270 14020 14020 E AndroidRuntime: 	at 
+android.content.ContentProvider.attachInfo(ContentProvider.java:2676)
+  08-11 06:52:31.270 14020 14020 E AndroidRuntime: 	at 
+android.app.ActivityThread.installProvider(ActivityThread.java:9506)
+  08-11 06:52:31.270 14020 14020 E AndroidRuntime: 	... 11 more
+> 08-11 06:52:31.270 14020 14020 E AndroidRuntime: Caused by: 
+java.lang.RuntimeException: Failed to create an instance of 
+androidx.work.impl.WorkDatabase
+  08-11 06:52:31.270 14020 14020 E AndroidRuntime: 	at com.google.firebase.fire
+store.f.k(r8-map-id-35e667920c1f273f9fce7cdbd3baa6ad79fd2e0c1cf6b8022cf6406aa7d
+4b658:3)
+  08-11 06:52:31.270 14020 14020 E AndroidRuntime: 	at b4.m.<init>(r8-map-id-35
+e667920c1f273f9fce7cdbd3baa6ad79fd2e0c1cf6b8022cf6406aa7d4b658:601)
+  08-11 06:52:31.270 14020 14020 E AndroidRuntime: 	at androidx.work.WorkManage
+rInitializer.b(r8-map-id-35e667920c1f273f9fce7cdbd3baa6ad79fd2e0c1cf6b8022cf640
+6aa7d4b658:69)
+  08-11 06:52:31.270 14020 14020 E AndroidRuntime: 	at n3.a.b(r8-map-id-35e6679
+20c1f273f9fce7cdbd3baa6ad79fd2e0c1cf6b8022cf6406aa7d4b658:92)
+  08-11 06:52:31.270 14020 14020 E AndroidRuntime: 	... 16 more
+  08-11 06:55:43.314 15266 15266 E AndroidRuntime: FATAL EXCEPTION: main
+  08-11 06:55:43.314 15266 15266 E AndroidRuntime: Process: 
+com.example.retail_mind, PID: 15266
+> 08-11 06:55:43.314 15266 15266 E AndroidRuntime: java.lang.RuntimeException: 
+Unable to get provider androidx.startup.InitializationProvider: a5.a: 
+java.lang.RuntimeException: Failed to create an instance of 
+androidx.work.impl.WorkDatabase
+  08-11 06:55:43.314 15266 15266 E AndroidRuntime: 	at 
+android.app.ActivityThread.installProvider(ActivityThread.java:9511)
+  08-11 06:55:43.314 15266 15266 E AndroidRuntime: 	at 
+android.app.ActivityThread.installContentProviders(ActivityThread.java:9015)
+  08-11 06:55:43.314 15266 15266 E AndroidRuntime: 	at 
+android.app.ActivityThread.handleBindApplication(ActivityThread.java:8645)
+  08-11 06:55:43.314 15266 15266 E AndroidRuntime: 	at android.app.ActivityThre
+ad.-$$Nest$mhandleBindApplication(ActivityThread.java:0)
+  08-11 06:55:43.314 15266 15266 E AndroidRuntime: 	at 
+android.app.ActivityThread$H.handleMessage(ActivityThread.java:2813)
+  08-11 06:55:43.314 15266 15266 E AndroidRuntime: 	at 
+android.os.Handler.dispatchMessage(Handler.java:115)
+  08-11 06:55:43.314 15266 15266 E AndroidRuntime: 	at 
+android.os.Looper.loopOnce(Looper.java:302)
+  08-11 06:55:43.314 15266 15266 E AndroidRuntime: 	at 
+android.os.Looper.loop(Looper.java:412)
+  08-11 06:55:43.314 15266 15266 E AndroidRuntime: 	at 
+android.app.ActivityThread.main(ActivityThread.java:9998)
+  08-11 06:55:43.314 15266 15266 E AndroidRuntime: 	at 
+java.lang.reflect.Method.invoke(Native Method)
+  08-11 06:55:43.314 15266 15266 E AndroidRuntime: 	at com.android.internal.os.
+RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:613)
+  08-11 06:55:43.314 15266 15266 E AndroidRuntime: 	at 
+com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1074)
+> 08-11 06:55:43.314 15266 15266 E AndroidRuntime: Caused by: a5.a: 
+java.lang.RuntimeException: Failed to create an instance of 
+androidx.work.impl.WorkDatabase
+  08-11 06:55:43.314 15266 15266 E AndroidRuntime: 	at n3.a.b(r8-map-id-35e6679
+20c1f273f9fce7cdbd3baa6ad79fd2e0c1cf6b8022cf6406aa7d4b658:105)
+  08-11 06:55:43.314 15266 15266 E AndroidRuntime: 	at n3.a.a(r8-map-id-35e6679
+20c1f273f9fce7cdbd3baa6ad79fd2e0c1cf6b8022cf6406aa7d4b658:84)
+  08-11 06:55:43.314 15266 15266 E AndroidRuntime: 	at androidx.startup.Initial
+izationProvider.onCreate(r8-map-id-35e667920c1f273f9fce7cdbd3baa6ad79fd2e0c1cf6
+b8022cf6406aa7d4b658:55)
+  08-11 06:55:43.314 15266 15266 E AndroidRuntime: 	at 
+android.content.ContentProvider.attachInfo(ContentProvider.java:2707)
+  08-11 06:55:43.314 15266 15266 E AndroidRuntime: 	at 
+android.content.ContentProvider.attachInfo(ContentProvider.java:2676)
+  08-11 06:55:43.314 15266 15266 E AndroidRuntime: 	at 
+android.app.ActivityThread.installProvider(ActivityThread.java:9506)
+  08-11 06:55:43.314 15266 15266 E AndroidRuntime: 	... 11 more
+> 08-11 06:55:43.314 15266 15266 E AndroidRuntime: Caused by: 
+java.lang.RuntimeException: Failed to create an instance of 
+androidx.work.impl.WorkDatabase
+  08-11 06:55:43.314 15266 15266 E AndroidRuntime: 	at com.google.firebase.fire
+store.f.k(r8-map-id-35e667920c1f273f9fce7cdbd3baa6ad79fd2e0c1cf6b8022cf6406aa7d
+4b658:3)
+  08-11 06:55:43.314 15266 15266 E AndroidRuntime: 	at b4.m.<init>(r8-map-id-35
+e667920c1f273f9fce7cdbd3baa6ad79fd2e0c1cf6b8022cf6406aa7d4b658:601)
+  08-11 06:55:43.314 15266 15266 E AndroidRuntime: 	at androidx.work.WorkManage
+rInitializer.b(r8-map-id-35e667920c1f273f9fce7cdbd3baa6ad79fd2e0c1cf6b8022cf640
+6aa7d4b658:69)
+  08-11 06:55:43.314 15266 15266 E AndroidRuntime: 	at n3.a.b(r8-map-id-35e6679
+20c1f273f9fce7cdbd3baa6ad79fd2e0c1cf6b8022cf6406aa7d4b658:92)
+  08-11 06:55:43.314 15266 15266 E AndroidRuntime: 	... 16 more
+  08-11 06:57:38.918 16297 16297 E AndroidRuntime: FATAL EXCEPTION: main
+  08-11 06:57:38.918 16297 16297 E AndroidRuntime: Process: 
+com.example.retail_mind, PID: 16297
+> 08-11 06:57:38.918 16297 16297 E AndroidRuntime: java.lang.RuntimeException: 
+Unable to get provider androidx.startup.InitializationProvider: a5.a: 
+java.lang.RuntimeException: Failed to create an instance of 
+androidx.work.impl.WorkDatabase
+  08-11 06:57:38.918 16297 16297 E AndroidRuntime: 	at 
+android.app.ActivityThread.installProvider(ActivityThread.java:9511)
+  08-11 06:57:38.918 16297 16297 E AndroidRuntime: 	at 
+android.app.ActivityThread.installContentProviders(ActivityThread.java:9015)
+  08-11 06:57:38.918 16297 16297 E AndroidRuntime: 	at 
+android.app.ActivityThread.handleBindApplication(ActivityThread.java:8645)
+  08-11 06:57:38.918 16297 16297 E AndroidRuntime: 	at android.app.ActivityThre
+ad.-$$Nest$mhandleBindApplication(ActivityThread.java:0)
+  08-11 06:57:38.918 16297 16297 E AndroidRuntime: 	at 
+android.app.ActivityThread$H.handleMessage(ActivityThread.java:2813)
+  08-11 06:57:38.918 16297 16297 E AndroidRuntime: 	at 
+android.os.Handler.dispatchMessage(Handler.java:115)
+  08-11 06:57:38.918 16297 16297 E AndroidRuntime: 	at 
+android.os.Looper.loopOnce(Looper.java:302)
+  08-11 06:57:38.918 16297 16297 E AndroidRuntime: 	at 
+android.os.Looper.loop(Looper.java:412)
+  08-11 06:57:38.918 16297 16297 E AndroidRuntime: 	at 
+android.app.ActivityThread.main(ActivityThread.java:9998)
+  08-11 06:57:38.918 16297 16297 E AndroidRuntime: 	at 
+java.lang.reflect.Method.invoke(Native Method)
+  08-11 06:57:38.918 16297 16297 E AndroidRuntime: 	at com.android.internal.os.
+RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:613)
+  08-11 06:57:38.918 16297 16297 E AndroidRuntime: 	at 
+com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1074)
+> 08-11 06:57:38.918 16297 16297 E AndroidRuntime: Caused by: a5.a: 
+java.lang.RuntimeException: Failed to create an instance of 
+androidx.work.impl.WorkDatabase
+  08-11 06:57:38.918 16297 16297 E AndroidRuntime: 	at n3.a.b(r8-map-id-35e6679
+20c1f273f9fce7cdbd3baa6ad79fd2e0c1cf6b8022cf6406aa7d4b658:105)
+  08-11 06:57:38.918 16297 16297 E AndroidRuntime: 	at n3.a.a(r8-map-id-35e6679
+20c1f273f9fce7cdbd3baa6ad79fd2e0c1cf6b8022cf6406aa7d4b658:84)
+  08-11 06:57:38.918 16297 16297 E AndroidRuntime: 	at androidx.startup.Initial
+izationProvider.onCreate(r8-map-id-35e667920c1f273f9fce7cdbd3baa6ad79fd2e0c1cf6
+b8022cf6406aa7d4b658:55)
+  08-11 06:57:38.918 16297 16297 E AndroidRuntime: 	at 
+android.content.ContentProvider.attachInfo(ContentProvider.java:2707)
+  08-11 06:57:38.918 16297 16297 E AndroidRuntime: 	at 
+android.content.ContentProvider.attachInfo(ContentProvider.java:2676)
+  08-11 06:57:38.918 16297 16297 E AndroidRuntime: 	at 
+android.app.ActivityThread.installProvider(ActivityThread.java:9506)
+  08-11 06:57:38.918 16297 16297 E AndroidRuntime: 	... 11 more
+> 08-11 06:57:38.918 16297 16297 E AndroidRuntime: Caused by: 
+java.lang.RuntimeException: Failed to create an instance of 
+androidx.work.impl.WorkDatabase
+  08-11 06:57:38.918 16297 16297 E AndroidRuntime: 	at com.google.firebase.fire
+store.f.k(r8-map-id-35e667920c1f273f9fce7cdbd3baa6ad79fd2e0c1cf6b8022cf6406aa7d
+4b658:3)
+  08-11 06:57:38.918 16297 16297 E AndroidRuntime: 	at b4.m.<init>(r8-map-id-35
+e667920c1f273f9fce7cdbd3baa6ad79fd2e0c1cf6b8022cf6406aa7d4b658:601)
+  08-11 06:57:38.918 16297 16297 E AndroidRuntime: 	at androidx.work.WorkManage
+rInitializer.b(r8-map-id-35e667920c1f273f9fce7cdbd3baa6ad79fd2e0c1cf6b8022cf640
+6aa7d4b658:69)
+  08-11 06:57:38.918 16297 16297 E AndroidRuntime: 	at n3.a.b(r8-map-id-35e6679
+20c1f273f9fce7cdbd3baa6ad79fd2e0c1cf6b8022cf6406aa7d4b658:92)
+  08-11 06:57:38.918 16297 16297 E AndroidRuntime: 	... 16 more
+  08-11 07:00:56.164 18205 18205 E AndroidRuntime: FATAL EXCEPTION: main
+  08-11 07:00:56.164 18205 18205 E AndroidRuntime: Process: 
+com.example.retail_mind, PID: 18205
+> 08-11 07:00:56.164 18205 18205 E AndroidRuntime: java.lang.RuntimeException: 
+Unable to get provider androidx.startup.InitializationProvider: a5.a: 
+java.lang.RuntimeException: Failed to create an instance of 
+androidx.work.impl.WorkDatabase
+  08-11 07:00:56.164 18205 18205 E AndroidRuntime: 	at 
+android.app.ActivityThread.installProvider(ActivityThread.java:9511)
+  08-11 07:00:56.164 18205 18205 E AndroidRuntime: 	at 
+android.app.ActivityThread.installContentProviders(ActivityThread.java:9015)
+  08-11 07:00:56.164 18205 18205 E AndroidRuntime: 	at 
+android.app.ActivityThread.handleBindApplication(ActivityThread.java:8645)
+  08-11 07:00:56.164 18205 18205 E AndroidRuntime: 	at android.app.ActivityThre
+ad.-$$Nest$mhandleBindApplication(ActivityThread.java:0)
+  08-11 07:00:56.164 18205 18205 E AndroidRuntime: 	at 
+android.app.ActivityThread$H.handleMessage(ActivityThread.java:2813)
+  08-11 07:00:56.164 18205 18205 E AndroidRuntime: 	at 
+android.os.Handler.dispatchMessage(Handler.java:115)
+  08-11 07:00:56.164 18205 18205 E AndroidRuntime: 	at 
+android.os.Looper.loopOnce(Looper.java:302)
+  08-11 07:00:56.164 18205 18205 E AndroidRuntime: 	at 
+android.os.Looper.loop(Looper.java:412)
+  08-11 07:00:56.164 18205 18205 E AndroidRuntime: 	at 
+android.app.ActivityThread.main(ActivityThread.java:9998)
+  08-11 07:00:56.164 18205 18205 E AndroidRuntime: 	at 
+java.lang.reflect.Method.invoke(Native Method)
+  08-11 07:00:56.164 18205 18205 E AndroidRuntime: 	at com.android.internal.os.
+RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:613)
+  08-11 07:00:56.164 18205 18205 E AndroidRuntime: 	at 
+com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1074)
+> 08-11 07:00:56.164 18205 18205 E AndroidRuntime: Caused by: a5.a: 
+java.lang.RuntimeException: Failed to create an instance of 
+androidx.work.impl.WorkDatabase
+  08-11 07:00:56.164 18205 18205 E AndroidRuntime: 	at n3.a.b(r8-map-id-35e6679
+20c1f273f9fce7cdbd3baa6ad79fd2e0c1cf6b8022cf6406aa7d4b658:105)
+  08-11 07:00:56.164 18205 18205 E AndroidRuntime: 	at n3.a.a(r8-map-id-35e6679
+20c1f273f9fce7cdbd3baa6ad79fd2e0c1cf6b8022cf6406aa7d4b658:84)
+  08-11 07:00:56.164 18205 18205 E AndroidRuntime: 	at androidx.startup.Initial
+izationProvider.onCreate(r8-map-id-35e667920c1f273f9fce7cdbd3baa6ad79fd2e0c1cf6
+b8022cf6406aa7d4b658:55)
+  08-11 07:00:56.164 18205 18205 E AndroidRuntime: 	at 
+android.content.ContentProvider.attachInfo(ContentProvider.java:2707)
+  08-11 07:00:56.164 18205 18205 E AndroidRuntime: 	at 
+android.content.ContentProvider.attachInfo(ContentProvider.java:2676)
+  08-11 07:00:56.164 18205 18205 E AndroidRuntime: 	at 
+android.app.ActivityThread.installProvider(ActivityThread.java:9506)
+  08-11 07:00:56.164 18205 18205 E AndroidRuntime: 	... 11 more
+> 08-11 07:00:56.164 18205 18205 E AndroidRuntime: Caused by: 
+java.lang.RuntimeException: Failed to create an instance of 
+androidx.work.impl.WorkDatabase
+  08-11 07:00:56.164 18205 18205 E AndroidRuntime: 	at com.google.firebase.fire
+store.f.k(r8-map-id-35e667920c1f273f9fce7cdbd3baa6ad79fd2e0c1cf6b8022cf6406aa7d
+4b658:3)
+  08-11 07:00:56.164 18205 18205 E AndroidRuntime: 	at b4.m.<init>(r8-map-id-35
+e667920c1f273f9fce7cdbd3baa6ad79fd2e0c1cf6b8022cf6406aa7d4b658:601)
+  08-11 07:00:56.164 18205 18205 E AndroidRuntime: 	at androidx.work.WorkManage
+rInitializer.b(r8-map-id-35e667920c1f273f9fce7cdbd3baa6ad79fd2e0c1cf6b8022cf640
+6aa7d4b658:69)
+  08-11 07:00:56.164 18205 18205 E AndroidRuntime: 	at n3.a.b(r8-map-id-35e6679
+20c1f273f9fce7cdbd3baa6ad79fd2e0c1cf6b8022cf6406aa7d4b658:92)
+  08-11 07:00:56.164 18205 18205 E AndroidRuntime: 	... 16 more
+  --------- beginning of system
+  08-11 07:30:35.807  2745  4185 D ActivityTaskManagerServiceExtImpl: 
+preBindApplication record is null
+  08-11 07:30:35.809 15533 15649 W ContextImpl: Calling a method in the system 
+process without a qualified user: android.app.ContextImpl.startService:2032 
+android.content.ContextWrapper.startService:865 
+com.heytap.mcs.pkginstall.c.e:11 com.heytap.mcs.pkginstall.c.n:5 
+com.heytap.mcs.pkginstall.c.b:0 
+  08-11 07:30:35.833  9619  9619 V Configuration: Updating configuration, 
+locales updated from [] to [en_GB]
+  08-11 07:30:35.838  2745  4185 D OplusOsPackageManager: 
+removePkgFromNotLaunchedList com.example.retail_mind
+  08-11 07:30:35.838  2745  4185 W ActivityTaskManager: callingPackage for 
+(uid=2000, pid=9649) has no WPC
+  08-11 07:30:35.842  2745  4185 D WindowManager: 
+NFW_setClientVisible:ActivityRecord{8196058 u0 
+com.example.retail_mind/.MainActivity clientVisible:true
+  08-11 07:30:35.844  2745  4185 D FlexibleTaskController: 
+isSupportFlexibleWindow target = com.example.retail_mind/.MainActivity callPkg 
+= FlexibleTaskController support = true ,caller = 2745
+  08-11 07:30:35.844  2745  4185 D ActivityStarterExtImpl: do not intercept 
+for realCallingAppIsSystemApp or CallingAppIsSystemApp
+  08-11 07:30:35.844  2745  3239 E QosSceneRecognizer[ActivityStartScene]: 
+notifyActivityStart get launchedFromUid failed through AppManager! 
+launchedFromPackage: com.android.shell, pkg: com.example.retail_mind
+  08-11 07:30:35.845  2745  4185 D FlexibleWindowManagerService: 
+isIgnoreAppearedAcrossTask:false
+  08-11 07:30:35.846  2745  4185 D FlexibleWindowManagerService: 
+isIgnoreAppearedAcrossTask:false
+  08-11 07:30:35.846  2745  4185 D FlexibleTaskController: 
+findSourceTaskForFreeForm: sourceRecord = null ,realCallingPid:9649 
+,launchFromZoomMode:false ,prevTopTask:Task{c4f1c4c #14066 type=standard 
+A=10232:com.oplus.stdsp}
+  08-11 07:30:35.846  2745  4185 D FlexibleTaskController: 
+findSourceTaskForFreeForm: the caller is not a flexible freeform window 
+application and does not have a zoom windowMode startup parameter
+  08-11 07:30:35.846  2745  4185 D FlexibleTaskController: 
+adjustOptionsForFlexibleTask not allow options follow process task's options, 
+reason:9 ,reusedOptions:null
+  08-11 07:30:35.846  2745  4185 D FlexibleTaskController: 
+isSupportFlexibleWindow target = com.example.retail_mind/.MainActivity callPkg 
+= FlexibleTaskController support = true ,caller = 2745
+  08-11 07:30:35.846  2745  4185 D FlexibleWindowManagerService: no reused 
+task found for ActivityRecord{8196058 u0 com.example.retail_mind/.MainActivity 
+t-1}
+  08-11 07:30:35.847  2745  4712 I OPM     : handleActivityStart : 
+ActivityRecord{8196058 u0 com.example.retail_mind/.MainActivity t-1}
+  08-11 07:30:35.847  2745  4185 D CompactServiceDelegate: 
+updateDecorsManagerIfNeed return because not attachToProcess task:Task{97e9d94 
+#14067 type=standard}
+  08-11 07:30:35.847  2745  4185 D CompactServiceDelegate: 
+updateDecorsManagerIfNeed return because not attachToProcess task:Task{97e9d94 
+#14067 type=standard}
+  08-11 07:30:35.853  2745  4185 D SecondaryPageStartupPolicy: 
+checkSecondaryPageStartupStatus not support sourcePackage=com.android.shell
+  08-11 07:30:35.854  2745  3250 W ActivityManager: Slow operation: 149ms so 
+far, now at startProcess: done updating battery stats
+  08-11 07:30:35.854  2745  3250 W ActivityManager: Slow operation: 150ms so 
+far, now at startProcess: building log message
+  08-11 07:30:35.854  2745  4185 D OplusStartingWindowManager: we don't revise 
+window flags for third app
+  08-11 07:30:35.854  2745  3250 I ActivityManager: Start proc 
+9646:com.oplus.romupdate/u0a230 for content provider 
+{com.oplus.romupdate/com.oplusos.romupdate.provider.RomUpdateProvider}
+  08-11 07:30:35.854  2745  4185 D ActivityTaskManager: 
+validateStartingWindowTheme:  Pkg=com.example.retail_mind, Translucent=false, 
+Floating=false, ShowWallpaper=false, Disable=false, LaunchSource=4, Prev=null, 
+LaunchedFromPackage=com.android.shell
+  08-11 07:30:35.854  2745  3250 W ActivityManager: Slow operation: 150ms so 
+far, now at startProcess: starting to update pids map
+  08-11 07:30:35.854  2745  2745 W Looper  : Slow delivery took 205ms main 
+app=system_server main=true group=SKIP h=android.app.ActivityThread$H c=android
+.app.LoadedApk$ReceiverDispatcher$Args$$ExternalSyntheticLambda0@d03ad7e m=0
+  08-11 07:30:35.854  2745  4185 D ActivityTaskManager: addStartingWindow for 
+ActivityRecord{8196058 u0 com.example.retail_mind/.MainActivity t14067}, 
+mainWin=null, state=INITIALIZING, isKeyguardLocked=false, 
+isKeyguardGoingAway=false
+  08-11 07:30:35.854  2745  4185 D ActivityTaskManager: getStartingWindowType: 
+, newTask=true, taskSwitch=true, processRunning=false, allowTaskSnapshot=true, 
+activityCreated=false, activityAllDrawn=false, snapshot exist: false
+  08-11 07:30:35.854  2745  4185 D ActivityRecordExtImpl: 
+handleStartingWindowForCompactWindow origin type:2, adjustType : 2
+  08-11 07:30:35.854  2745  3250 W ActivityManager: Slow operation: 150ms so 
+far, now at startProcess: done updating pids map
+  08-11 07:30:35.855  2745  3204 I ActivityManager: ProcessObserver broadcast 
+disabled
+  08-11 07:30:35.855  2745  3250 W ActivityManager: Slow operation: 131ms so 
+far, now at startProcess: asking zygote to start proc
+  08-11 07:30:35.856  4230  4335 D PhoneStartingWindowTypeAlgorithm: 
+preferredStartingWindowType newTask=true, taskSwitch=true, 
+processRunning=false, allowTaskSnapshot=true, activityCreated=false, 
+isSolidColorSplashScreen=false, legacySplashScreen=false, activityDrawn=false, 
+windowless=false, topIsHome=false
+  08-11 07:30:36.489  2745  4791 D ActivityTaskManager: 
+NFW_setLastResumedActivityUncheckLocked:true r:ActivityRecord{8196058 u0 
+com.example.retail_mind/.MainActivity t14067} currentFocus:null
+  08-11 07:30:36.489  2745  4791 D WindowManager: 
+NFW_findFocusedWindowIfNeeded:null mCurrentFocus:null
+  08-11 07:30:36.489  2745  4791 D FlexibleTaskController: onTaskFocusChanged 
+prevTask:Task{c4f1c4c #14066 type=standard A=10232:com.oplus.stdsp} 
+,currentTask:Task{97e9d94 #14067 type=standard 
+I=com.example.retail_mind/.MainActivity}, reason: realStartActivityLocked - 
+onActivityStateChanged
+  08-11 07:30:36.489  2745  4791 D OplusFlexibleDCSManager: onNextPkgChanged 
+pkg = com.example.retail_mind
+  08-11 07:30:36.490  2745  4791 D OplusVisibleTasks:  notifyTaskFocusChange 
+no need.
+  08-11 07:30:36.490  2745  4791 I OplusAppSwitchManagerService: appswitch 
+hasProcess ActivityRecord{8196058 u0 com.example.retail_mind/.MainActivity 
+t14067}
+  08-11 07:30:36.491  2745  4791 I OplusJoystickManager: 
+handleApplicationSwitch deprecated!
+  08-11 07:30:36.491  2745  4791 I 
+GameManagerServiceExt-GameManagerServiceExt: on FG change: 
+com.oplus.stdsp|com.example.retail_mind
+  08-11 07:30:36.491  2745  4791 I OplusAppSwitchManagerService: appswitch 
+hasProcess ActivityRecord{8196058 u0 com.example.retail_mind/.MainActivity 
+t14067}
+  08-11 07:30:36.498  2745  3250 W ActivityManager: Slow operation: 533ms so 
+far, now at startProcess: asking zygote to start proc
+  08-11 07:30:36.500  9767  9767 V Configuration: Updating configuration, 
+locales updated from [] to [en_GB]
+  08-11 07:30:36.509  2745  3206 D FlexibleTaskController: check task which 
+not have enough child, isInSingleWhiteList:false isCloneTask:false
+  08-11 07:30:36.516  2745  3278 D OplusAppSwitchListener: App Activity Change
+  08-11 07:30:36.516  2745  3278 D OplusAppSwitchListener: Detect 
+com.oplus.stdsp switch to background
+  08-11 07:30:36.516  2745  3278 D OplusFeatureReduceBrightness: onAppExit , 
+info = com.oplus.stdsp
+  08-11 07:30:36.516  2745  3278 D OplusAppSwitchListener: Detect 
+com.example.retail_mind switch to foreground
+  08-11 07:30:36.523  9767  9767 D ResourcesManagerExtImpl: 
+applyConfigurationToAppResourcesLocked app.getDisplayId() return 
+callback.displayId:-1
+  08-11 07:30:36.539  9669  9669 I Quality : GetResourcesInfo:106973281,/data/a
+pp/~~AJyXxe6L9CfePj5z2ATnDg==/com.heytap.market-JUh8_L8eTvz-2Z3IbepUsg==/base.a
+pk
+  08-11 07:30:36.547  9767  9767 E AndroidRuntime: FATAL EXCEPTION: main
+  08-11 07:30:36.547  9767  9767 E AndroidRuntime: Process: 
+com.example.retail_mind, PID: 9767
+> 08-11 07:30:36.547  9767  9767 E AndroidRuntime: java.lang.RuntimeException: 
+Unable to get provider androidx.startup.InitializationProvider: a6.b: 
+java.lang.RuntimeException: Failed to create an instance of class 
+androidx.work.impl.WorkDatabase.canonicalName
+  08-11 07:30:36.547  9767  9767 E AndroidRuntime: 	at 
+android.app.ActivityThread.installProvider(ActivityThread.java:9511)
+  08-11 07:30:36.547  9767  9767 E AndroidRuntime: 	at 
+android.app.ActivityThread.installContentProviders(ActivityThread.java:9015)
+  08-11 07:30:36.547  9767  9767 E AndroidRuntime: 	at 
+android.app.ActivityThread.handleBindApplication(ActivityThread.java:8645)
+  08-11 07:30:36.547  9767  9767 E AndroidRuntime: 	at android.app.ActivityThre
+ad.-$$Nest$mhandleBindApplication(ActivityThread.java:0)
+  08-11 07:30:36.547  9767  9767 E AndroidRuntime: 	at 
+android.app.ActivityThread$H.handleMessage(ActivityThread.java:2813)
+  08-11 07:30:36.547  9767  9767 E AndroidRuntime: 	at 
+android.os.Handler.dispatchMessage(Handler.java:115)
+  08-11 07:30:36.547  9767  9767 E AndroidRuntime: 	at 
+android.os.Looper.loopOnce(Looper.java:302)
+  08-11 07:30:36.547  9767  9767 E AndroidRuntime: 	at 
+android.os.Looper.loop(Looper.java:412)
+  08-11 07:30:36.547  9767  9767 E AndroidRuntime: 	at 
+android.app.ActivityThread.main(ActivityThread.java:9998)
+  08-11 07:30:36.547  9767  9767 E AndroidRuntime: 	at 
+java.lang.reflect.Method.invoke(Native Method)
+  08-11 07:30:36.547  9767  9767 E AndroidRuntime: 	at com.android.internal.os.
+RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:613)
+  08-11 07:30:36.547  9767  9767 E AndroidRuntime: 	at 
+com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1074)
+> 08-11 07:30:36.547  9767  9767 E AndroidRuntime: Caused by: a6.b: 
+java.lang.RuntimeException: Failed to create an instance of class 
+androidx.work.impl.WorkDatabase.canonicalName
+  08-11 07:30:36.547  9767  9767 E AndroidRuntime: 	at o3.a.b(r8-map-id-79e8580
+688a64a96b07591350e8596711bc897046b95e300d28925f581f1150f:105)
+  08-11 07:30:36.547  9767  9767 E AndroidRuntime: 	at o3.a.a(r8-map-id-79e8580
+688a64a96b07591350e8596711bc897046b95e300d28925f581f1150f:84)
+  08-11 07:30:36.547  9767  9767 E AndroidRuntime: 	at androidx.startup.Initial
+izationProvider.onCreate(r8-map-id-79e8580688a64a96b07591350e8596711bc897046b95
+e300d28925f581f1150f:55)
+  08-11 07:30:36.547  9767  9767 E AndroidRuntime: 	at 
+android.content.ContentProvider.attachInfo(ContentProvider.java:2707)
+  08-11 07:30:36.547  9767  9767 E AndroidRuntime: 	at 
+android.content.ContentProvider.attachInfo(ContentProvider.java:2676)
+  08-11 07:30:36.547  9767  9767 E AndroidRuntime: 	at 
+android.app.ActivityThread.installProvider(ActivityThread.java:9506)
+  08-11 07:30:36.547  9767  9767 E AndroidRuntime: 	... 11 more
+> 08-11 07:30:36.547  9767  9767 E AndroidRuntime: Caused by: 
+java.lang.RuntimeException: Failed to create an instance of class 
+androidx.work.impl.WorkDatabase.canonicalName
+  08-11 07:30:36.547  9767  9767 E AndroidRuntime: 	at c4.n.<init>(r8-map-id-79
+e8580688a64a96b07591350e8596711bc897046b95e300d28925f581f1150f:1162)
+  08-11 07:30:36.547  9767  9767 E AndroidRuntime: 	at androidx.work.WorkManage
+rInitializer.b(r8-map-id-79e8580688a64a96b07591350e8596711bc897046b95e300d28925
+f581f1150f:66)
+  08-11 07:30:36.547  9767  9767 E AndroidRuntime: 	at o3.a.b(r8-map-id-79e8580
+688a64a96b07591350e8596711bc897046b95e300d28925f581f1150f:92)
+  08-11 07:30:36.547  9767  9767 E AndroidRuntime: 	... 16 more
+  08-11 07:30:36.547  2745  3250 W ActivityManager: Slow operation: 582ms so 
+far, now at startProcess: returned from zygote!
+  08-11 07:30:36.548  2745  5561 D ActivityManager: Cancel freezing 9646 
+com.oplus.romupdate
+  08-11 07:30:36.549  2745  7309 D OplusBatteryServiceFeature: 
+setSmartCoolDown: coolDown = 3, normalCoolDown = 3, pkgName = 
+com.example.retail_mind
+  08-11 07:30:36.554  2745  3862 V Configuration: Updating configuration, 
+locales updated from [] to [en_GB]
+  08-11 07:30:36.554  2745  3862 V Configuration: Updating configuration, 
+locales updated from [] to [en_GB]
+  08-11 07:30:36.556  2745  7308 W OplusEapManager handleErrorInfo sendEvent: 
+: com.example.retail_mind happenedcrash
+  08-11 07:30:36.556  2745  4759 D OplusEapManager: mTargetExitName 
+:com.oplus.stdsp
+  08-11 07:30:36.557  2745  4759 D OplusAppSwitchRuleInfo: 
+generateAppEnterInfo - launch_source_type =  , launch_source_traceid = 
+  08-11 07:30:36.557  2745  4759 D OplusAppSwitchRuleInfo: 
+generateAppEnterInfo - launch_source_type =  , launch_source_traceid = 
+  08-11 07:30:36.557  2745  4759 D OplusAppSwitchRuleInfo: 
+generateAppEnterInfo - launch_source_type =  , launch_source_traceid = 
+  08-11 07:30:36.561  2745  3280 D VRR [OPlusRefreshRateService]: 
+handleFrontAppChange pkgName: null
+  08-11 07:30:36.563  2745  5410 E KernelCpuUidFreqTimeReader: Negative delta 
+from freq time for uid: 90000, delta: -50
+  08-11 07:30:36.565  2745  7308 D OplusDexAotCrashController: aotCrashCount=3 
+CrashCount=5 crashTimeWindow=3600000
+  08-11 07:30:36.566  2745  7308 W ActivityTaskManager:   Force finishing 
+activity com.example.retail_mind/.MainActivity
+  08-11 07:30:36.568  4230  4310 V WindowManagerShell: Transition requested 
+(#839): android.os.BinderProxy@97575ff TransitionRequestInfo { type = CLOSE, 
+triggerTask = TaskInfo{userId=0 taskId=14067 effectiveUid=10391 displayId=0 
+isRunning=true baseIntent=Intent { flg=0x10000000 
+cmp=com.example.retail_mind/.MainActivity mCallingUid=2000 } baseActivity=Compo
+nentInfo{com.example.retail_mind/com.example.retail_mind.MainActivity} topActiv
+ity=ComponentInfo{com.example.retail_mind/com.example.retail_mind.MainActivity}
+ origActivity=null realActivity=ComponentInfo{com.example.retail_mind/com.examp
+le.retail_mind.MainActivity}
+  08-11 07:30:36.568  4230  4310 V WindowManagerShell:  numActivities=1 
+lastActiveTime=60275037 supportsSplitScreenMultiWindow=true 
+supportsMultiWindow=true supportsPocketStudioMultiWindow=true 
+isInFlexibleEmbedded = false uid = 10391 pid = 9767 resizeMode=1 
+isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 
+token=WCT{android.window.IWindowContainerToken$Stub$Proxy@3311fcc} 
+topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false 
+launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 
+displayCutoutSafeInsets=Rect(0, 0 - 0, 0)
+  08-11 07:30:36.568  4230  4310 V WindowManagerShell:  
+topActivityInfo=ActivityInfo{762e215 com.example.retail_mind.MainActivity} 
+launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=true 
+isVisible=true isVisibleRequested=true isTopActivityNoDisplay=false 
+isSleeping=false locusId=null displayAreaFeatureId=1 
+isTopActivityTransparent=false isActivityStackTransparent=false 
+lastNonFullscreenBounds=Rect(279, 696 - 801, 1776) capturedLink=null 
+capturedLinkTimestamp=0 requestedVisibleTypes=-9 
+topActivityRequestOpenInBrowserEducationTimestamp=0
+  08-11 07:30:36.568  4230  4310 V WindowManagerShell:  
+appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false 
+topActivityInOplusCompatMode=false eligibleForLetterboxEducation= false 
+isLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false 
+eligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false 
+isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 
+topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 
+topActivityLetterboxHeight=-1 topActivityAppBounds=Rect(0, 0 - 1080, 2400) 
+isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false 
+hasMinAspectRatioOverride=false topActivityLetterboxBounds=null 
+cameraCompatTaskInfo=CameraCompatTaskInfo { 
+freeformCameraCompatMode=inactive}} topActivityMainWindowFrame=null 
+topActivityLetterboxInsets=Rect(0, 0 - 0, 0)
+  08-11 07:30:36.568  4230  4310 V WindowManagerShell:  mOplusExtraBundle = 
+Bundle[mParcelledData.dataSize=1476]}, pipChange = null, remoteTransition = 
+null, displayChange = null, flags = 16, debugId = 839 }
+  08-11 07:30:36.570  2745  7308 D ActivityTaskManager: 
+setAppVisibility(Token{171ff00 ActivityRecord{8196058 u0 
+com.example.retail_mind/.MainActivity t14067 f}}}, visible=false):  
+visible=true mVisibleRequested=true
+  08-11 07:30:36.571  2745  3261 E OplusThermalStats: Error getting package 
+info: com.example.retail_mind
+  08-11 07:30:36.571  2745  7308 D ActivityTaskManager: 
+setVisibility(Token{171ff00 ActivityRecord{8196058 u0 
+com.example.retail_mind/.MainActivity t14067 f}}}, visible=false) defer 
+commitVisibility for transition collecting
+  08-11 07:30:36.573  2745  7308 D TaskFragmentExtImpl: shouldSetReadyFalse 
+and resumedActivity: ActivityRecord{172116121 u0 
+com.oplus.stdsp/.extappdetail.installfinish.InstallFinishActivity t14066} 
+prev: ActivityRecord{8196058 u0 com.example.retail_mind/.MainActivity t14067 
+f}} resumedLaunchFromLauncher: false prevLaunchFromApp: true transitionType: 2
+  08-11 07:30:36.576  2745  7308 D ActivityTaskManager: 
+setAppVisibility(Token{7e6d80c ActivityRecord{172116121 u0 
+com.oplus.stdsp/.extappdetail.installfinish.InstallFinishActivity t14066}}, 
+visible=true):  visible=false mVisibleRequested=false
+  08-11 07:30:36.576  2745  7308 D WindowManager: 
+NFW_setClientVisible:ActivityRecord{172116121 u0 
+com.oplus.stdsp/.extappdetail.installfinish.InstallFinishActivity t14066} 
+clientVisible:true
+  08-11 07:30:36.563  2745  5410 E KernelCpuUidFreqTimeReader: Negative delta 
+from freq time for uid: 90001, delta: -1587
+  08-11 07:30:36.577  2745  7308 D ActivityTaskManager: 
+setVisibility(Token{7e6d80c ActivityRecord{172116121 u0 
+com.oplus.stdsp/.extappdetail.installfinish.InstallFinishActivity t14066}}, 
+visible=true) defer commitVisibility for transition collecting
+  08-11 07:30:36.581  2745  7308 I TaskOrganizerController: onTaskInfoChanged 
+taskid 14066 config { mBounds=Rect(0, 0 - 1080, 2400) mAppBounds=Rect(0, 0 - 
+1080, 2400) mMaxBounds=Rect(0, 0 - 1080, 2400) mDisplayRotation=ROTATION_0 
+mWindowingMode=fullscreen mActivityType=standard mAlwaysOnTop=undefined 
+mRotation=ROTATION_0}
+  08-11 07:30:36.582  2745  7308 D OplusFlexibleDragToSplitAnimController: 
+visibleFlexibleTaskInfos delete:14066
+  08-11 07:30:36.582  2745  7308 E FlexibleWindowManagerService: 
+notifyTaskObserverToAttachController not need to notify!
+  08-11 07:30:36.582  2745  7308 I FlexibleWindowManagerService: 
+onFlexibleWindowTaskInfoChanged, return for cur task not embedded
+  08-11 07:30:36.582  2745  7308 I TaskOrganizerController: onTaskInfoChanged 
+taskid 14067 config { mBounds=Rect(0, 0 - 1080, 2400) mAppBounds=Rect(0, 0 - 
+1080, 2400) mMaxBounds=Rect(0, 0 - 1080, 2400) mDisplayRotation=ROTATION_0 
+mWindowingMode=fullscreen mActivityType=standard mAlwaysOnTop=undefined 
+mRotation=ROTATION_0}
+  08-11 07:30:36.582  2745  7308 D OplusFlexibleDragToSplitAnimController: 
+visibleFlexibleTaskInfos delete:14067
+  08-11 07:30:36.582  2745  7308 E FlexibleWindowManagerService: 
+notifyTaskObserverToAttachController not need to notify!
+  08-11 07:30:36.582  2745  7308 I FlexibleWindowManagerService: 
+onFlexibleWindowTaskInfoChanged, return for cur task not embedded
+  08-11 07:30:36.583  2745  3250 W ActivityManager: Slow operation: 618ms so 
+far, now at startProcess: done updating battery stats
+  08-11 07:30:46.040  2745  7309 I 
+GameManagerServiceExt-GameManagerServiceExt: on FG change: 
+com.oplus.stdsp|com.example.retail_mind
+  08-11 07:30:46.040  2745  7309 I OplusAppSwitchManagerService: appswitch 
+hasProcess ActivityRecord{114370939 u0 com.example.retail_mind/.MainActivity 
+t14068}
+  08-11 07:30:46.043  2745  3278 D OplusAppSwitchListener: App Activity Change
+  08-11 07:30:46.043  2745  3278 D OplusAppSwitchListener: Detect 
+com.oplus.stdsp switch to background
+  08-11 07:30:46.043  2745  3278 D OplusFeatureReduceBrightness: onAppExit , 
+info = com.oplus.stdsp
+  08-11 07:30:46.044  2745  3278 D OplusAppSwitchListener: Detect 
+com.example.retail_mind switch to foreground
+  08-11 07:30:46.044  2745  3207 I TaskOrganizerController: onTaskInfoChanged 
+taskid 14066 config { mBounds=Rect(0, 0 - 1080, 2400) mAppBounds=Rect(0, 0 - 
+1080, 2400) mMaxBounds=Rect(0, 0 - 1080, 2400) mDisplayRotation=ROTATION_0 
+mWindowingMode=fullscreen mActivityType=standard mAlwaysOnTop=undefined 
+mRotation=ROTATION_0}
+  08-11 07:30:46.045  2745  3207 D OplusFlexibleDragToSplitAnimController: 
+visibleFlexibleTaskInfos delete:14066
+  08-11 07:30:46.045  2745  3207 E FlexibleWindowManagerService: 
+notifyTaskObserverToAttachController not need to notify!
+  08-11 07:30:46.045  2745  3207 I FlexibleWindowManagerService: 
+onFlexibleWindowTaskInfoChanged, return for cur task not embedded
+  08-11 07:30:46.045  2745  3207 I TaskOrganizerController: onTaskInfoChanged 
+taskid 14068 config { mBounds=Rect(0, 0 - 1080, 2400) mAppBounds=Rect(0, 0 - 
+1080, 2400) mMaxBounds=Rect(0, 0 - 1080, 2400) mDisplayRotation=ROTATION_0 
+mWindowingMode=fullscreen mActivityType=standard mAlwaysOnTop=undefined 
+mRotation=ROTATION_0}
+  08-11 07:30:46.046  2745  3207 D OplusFlexibleDragToSplitAnimController: 
+visibleFlexibleTaskInfos delete:14068
+  08-11 07:30:46.046  2745  3207 E FlexibleWindowManagerService: 
+notifyTaskObserverToAttachController not need to notify!
+  08-11 07:30:46.046  2745  3207 I FlexibleWindowManagerService: 
+onFlexibleWindowTaskInfoChanged, return for cur task not embedded
+  08-11 07:30:46.047 10872 10872 V Configuration: Updating configuration, 
+locales updated from [] to [en_GB]
+  08-11 07:30:46.068  2745  3883 V AlarmManager: sending alarm Alarm{607ef1e 
+type 1 origWhen 1786413646058 whenElapsed 60284608 android} uid 1000 
+whenElapsed 60284608 windowLength 0 maxWhenElapsed 60284608 repeatInterval 0 
+action null component null tag StorgaeBandInfoAlarmTag flags 0x9 procName 
+system_server
+  08-11 07:30:46.071 10872 10872 D ResourcesManagerExtImpl: 
+applyConfigurationToAppResourcesLocked app.getDisplayId() return 
+callback.displayId:-1
+  08-11 07:30:46.078  2745  3206 D FlexibleTaskController: check task which 
+not have enough child, isInSingleWhiteList:false isCloneTask:false
+  08-11 07:30:46.088 10872 10872 E AndroidRuntime: FATAL EXCEPTION: main
+  08-11 07:30:46.088 10872 10872 E AndroidRuntime: Process: 
+com.example.retail_mind, PID: 10872
+> 08-11 07:30:46.088 10872 10872 E AndroidRuntime: java.lang.RuntimeException: 
+Unable to get provider androidx.startup.InitializationProvider: a6.b: 
+java.lang.RuntimeException: Failed to create an instance of class 
+androidx.work.impl.WorkDatabase.canonicalName
+  08-11 07:30:46.088 10872 10872 E AndroidRuntime: 	at 
+android.app.ActivityThread.installProvider(ActivityThread.java:9511)
+  08-11 07:30:46.088 10872 10872 E AndroidRuntime: 	at 
+android.app.ActivityThread.installContentProviders(ActivityThread.java:9015)
+  08-11 07:30:46.088 10872 10872 E AndroidRuntime: 	at 
+android.app.ActivityThread.handleBindApplication(ActivityThread.java:8645)
+  08-11 07:30:46.088 10872 10872 E AndroidRuntime: 	at android.app.ActivityThre
+ad.-$$Nest$mhandleBindApplication(ActivityThread.java:0)
+  08-11 07:30:46.088 10872 10872 E AndroidRuntime: 	at 
+android.app.ActivityThread$H.handleMessage(ActivityThread.java:2813)
+  08-11 07:30:46.088 10872 10872 E AndroidRuntime: 	at 
+android.os.Handler.dispatchMessage(Handler.java:115)
+  08-11 07:30:46.088 10872 10872 E AndroidRuntime: 	at 
+android.os.Looper.loopOnce(Looper.java:302)
+  08-11 07:30:46.088 10872 10872 E AndroidRuntime: 	at 
+android.os.Looper.loop(Looper.java:412)
+  08-11 07:30:46.088 10872 10872 E AndroidRuntime: 	at 
+android.app.ActivityThread.main(ActivityThread.java:9998)
+  08-11 07:30:46.088 10872 10872 E AndroidRuntime: 	at 
+java.lang.reflect.Method.invoke(Native Method)
+  08-11 07:30:46.088 10872 10872 E AndroidRuntime: 	at com.android.internal.os.
+RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:613)
+  08-11 07:30:46.088 10872 10872 E AndroidRuntime: 	at 
+com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1074)
+> 08-11 07:30:46.088 10872 10872 E AndroidRuntime: Caused by: a6.b: 
+java.lang.RuntimeException: Failed to create an instance of class 
+androidx.work.impl.WorkDatabase.canonicalName
+  08-11 07:30:46.088 10872 10872 E AndroidRuntime: 	at o3.a.b(r8-map-id-79e8580
+688a64a96b07591350e8596711bc897046b95e300d28925f581f1150f:105)
+  08-11 07:30:46.088 10872 10872 E AndroidRuntime: 	at o3.a.a(r8-map-id-79e8580
+688a64a96b07591350e8596711bc897046b95e300d28925f581f1150f:84)
+  08-11 07:30:46.088 10872 10872 E AndroidRuntime: 	at androidx.startup.Initial
+izationProvider.onCreate(r8-map-id-79e8580688a64a96b07591350e8596711bc897046b95
+e300d28925f581f1150f:55)
+  08-11 07:30:46.088 10872 10872 E AndroidRuntime: 	at 
+android.content.ContentProvider.attachInfo(ContentProvider.java:2707)
+  08-11 07:30:46.088 10872 10872 E AndroidRuntime: 	at 
+android.content.ContentProvider.attachInfo(ContentProvider.java:2676)
+  08-11 07:30:46.088 10872 10872 E AndroidRuntime: 	at 
+android.app.ActivityThread.installProvider(ActivityThread.java:9506)
+  08-11 07:30:46.088 10872 10872 E AndroidRuntime: 	... 11 more
+> 08-11 07:30:46.088 10872 10872 E AndroidRuntime: Caused by: 
+java.lang.RuntimeException: Failed to create an instance of class 
+androidx.work.impl.WorkDatabase.canonicalName
+  08-11 07:30:46.088 10872 10872 E AndroidRuntime: 	at c4.n.<init>(r8-map-id-79
+e8580688a64a96b07591350e8596711bc897046b95e300d28925f581f1150f:1162)
+  08-11 07:30:46.088 10872 10872 E AndroidRuntime: 	at androidx.work.WorkManage
+rInitializer.b(r8-map-id-79e8580688a64a96b07591350e8596711bc897046b95e300d28925
+f581f1150f:66)
+  08-11 07:30:46.088 10872 10872 E AndroidRuntime: 	at o3.a.b(r8-map-id-79e8580
+688a64a96b07591350e8596711bc897046b95e300d28925f581f1150f:92)
+  08-11 07:30:46.088 10872 10872 E AndroidRuntime: 	... 16 more
+  08-11 07:30:46.092  2745  4759 D OplusEapManager: mTargetExitName 
+:com.oplus.stdsp
+  08-11 07:30:46.092  2745  4759 D OplusAppSwitchRuleInfo: 
+generateAppEnterInfo - launch_source_type =  , launch_source_traceid = 
+  08-11 07:30:46.092  2745  4759 D OplusAppSwitchRuleInfo: 
+generateAppEnterInfo - launch_source_type =  , launch_source_traceid = 
+  08-11 07:30:46.093  2745  4759 D OplusAppSwitchRuleInfo: 
+generateAppEnterInfo - launch_source_type =  , launch_source_traceid = 
+  08-11 07:30:46.093  2745  4759 D OplusAppSwitchRuleInfo: 
+generateAppEnterInfo - launch_source_type =  , launch_source_traceid = 
+  08-11 07:30:46.093  2745  4759 D OplusAppSwitchRuleInfo: 
+generateAppEnterInfo - launch_source_type =  , launch_source_traceid = 
+  08-11 07:30:46.093  2745  4759 D OplusAppSwitchRuleInfo: 
+generateAppEnterInfo - launch_source_type =  , launch_source_traceid = 
+  08-11 07:30:46.093  2745  4759 D OplusAppSwitchRuleInfo: 
+generateAppEnterInfo - launch_source_type =  , launch_source_traceid = 
+  08-11 07:30:46.093  2745  4759 D OplusAppSwitchRuleInfo: 
+generateAppEnterInfo - launch_source_type =  , launch_source_traceid = 
+  08-11 07:30:46.093  2745  4759 D OplusAppSwitchRuleInfo: 
+generateAppEnterInfo - launch_source_type =  , launch_source_traceid = 
+  08-11 07:30:46.093  2745  4759 D OplusEapManager: mTargetEnterName 
+:com.example.retail_mind
+  08-11 07:30:46.095  2745  4759 D OplusAppSwitchRuleInfo: 
+generateActivityEnterInfo - launch_source_type =  , launch_source_traceid = 
+  08-11 07:30:46.098  2745  4540 W OplusEapManager handleErrorInfo sendEvent: 
+: com.example.retail_mind happenedcrash
+  08-11 07:30:46.101  2745  3220 D OplusAppDetailsManager: 
+saveAppDetailsConfig Start
+  08-11 07:30:46.101  2745  3746 W OplusSelfProtectManager: 
+pkg[com.oplus.crashbox] not in policy list
+  08-11 07:30:46.108  2745  5178 D OplusBatteryServiceFeature: 
+setSmartCoolDown: coolDown = 3, normalCoolDown = 3, pkgName = 
+com.example.retail_mind
+  08-11 07:30:46.108  2745 10891 I DropBoxManagerService: add 
+tag=data_app_crash isTagEnabled=true flags=0x2
+  08-11 07:30:46.111  2745 10891 D DropBoxManagerService: file :: 
+/data/system/dropbox/data_app_crash@1786413646110.txt
+  08-11 07:30:46.113  2745  4540 I BroadcastQueue: 
+BOOT_COMPLETED_BROADCAST_COMPLETION_LATENCY_REPORTED 
+action:android.intent.action.BOOT_COMPLETED dispatchLatency:19 
+completeLatency:70 dispatchRealLatency:20 completeRealLatency:71 
+receiversSize:1 userId:0 userType:android.os.usertype.full.SYSTEM
+  08-11 07:30:46.113  2745  4540 D OplusDexAotCrashController: aotCrashCount=3 
+CrashCount=5 crashTimeWindow=3600000
+  08-11 07:30:46.113  2745  4540 W ActivityTaskManager:   Force finishing 
+activity com.example.retail_mind/.MainActivity
+  08-11 07:30:46.115  2745  3261 E OplusThermalStats: Error getting package 
+info: com.example.retail_mind
+  08-11 07:30:46.115  2745  4540 D ActivityTaskManager: 
+setAppVisibility(Token{85fdb0 ActivityRecord{114370939 u0 
+com.example.retail_mind/.MainActivity t14068 f}}}, visible=false):  
+visible=true mVisibleRequested=true
+  08-11 07:30:46.115  4230  4310 V WindowManagerShell: Transition requested 
+(#841): android.os.BinderProxy@9f13bd1 TransitionRequestInfo { type = CLOSE, 
+triggerTask = TaskInfo{userId=0 taskId=14068 effectiveUid=10391 displayId=0 
+isRunning=true baseIntent=Intent { flg=0x10000000 
+cmp=com.example.retail_mind/.MainActivity mCallingUid=2000 } baseActivity=Compo
+nentInfo{com.example.retail_mind/com.example.retail_mind.MainActivity} topActiv
+ity=ComponentInfo{com.example.retail_mind/com.example.retail_mind.MainActivity}
+ origActivity=null realActivity=ComponentInfo{com.example.retail_mind/com.examp
+le.retail_mind.MainActivity}
+  08-11 07:30:46.115  4230  4310 V WindowManagerShell:  numActivities=1 
+lastActiveTime=60284582 supportsSplitScreenMultiWindow=true 
+supportsMultiWindow=true supportsPocketStudioMultiWindow=true 
+isInFlexibleEmbedded = false uid = 10391 pid = 10872 resizeMode=1 
+isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 
+token=WCT{android.window.IWindowContainerToken$Stub$Proxy@965636} 
+topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false 
+launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 
+displayCutoutSafeInsets=Rect(0, 0 - 0, 0)
+  08-11 07:30:46.115  4230  4310 V WindowManagerShell:  
+topActivityInfo=ActivityInfo{20b5937 com.example.retail_mind.MainActivity} 
+launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=true 
+isVisible=true isVisibleRequested=true isTopActivityNoDisplay=false 
+isSleeping=false locusId=null displayAreaFeatureId=1 
+isTopActivityTransparent=false isActivityStackTransparent=false 
+lastNonFullscreenBounds=Rect(279, 696 - 801, 1776) capturedLink=null 
+capturedLinkTimestamp=0 requestedVisibleTypes=-9 
+topActivityRequestOpenInBrowserEducationTimestamp=0
+  08-11 07:30:46.115  4230  4310 V WindowManagerShell:  
+appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false 
+topActivityInOplusCompatMode=false eligibleForLetterboxEducation= false 
+isLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false 
+eligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false 
+isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 
+topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 
+topActivityLetterboxHeight=-1 topActivityAppBounds=Rect(0, 0 - 1080, 2400) 
+isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false 
+hasMinAspectRatioOverride=false topActivityLetterboxBounds=null 
+cameraCompatTaskInfo=CameraCompatTaskInfo { 
+freeformCameraCompatMode=inactive}} topActivityMainWindowFrame=null 
+topActivityLetterboxInsets=Rect(0, 0 - 0, 0)
+  08-11 07:30:46.115  4230  4310 V WindowManagerShell:  mOplusExtraBundle = 
+Bundle[mParcelledData.dataSize=1476]}, pipChange = null, remoteTransition = 
+null, displayChange = null, flags = 16, debugId = 841 }
+  08-11 07:30:46.116  2745  4540 D ActivityTaskManager: 
+setVisibility(Token{85fdb0 ActivityRecord{114370939 u0 
+com.example.retail_mind/.MainActivity t14068 f}}}, visible=false) defer 
+commitVisibility for transition collecting
+  08-11 07:30:46.116  2745  4540 D TaskFragmentExtImpl: shouldSetReadyFalse 
+and resumedActivity: ActivityRecord{172116121 u0 
+com.oplus.stdsp/.extappdetail.installfinish.InstallFinishActivity t14066} 
+prev: ActivityRecord{114370939 u0 com.example.retail_mind/.MainActivity t14068 
+f}} resumedLaunchFromLauncher: false prevLaunchFromApp: true transitionType: 2
+  08-11 07:30:46.118  2745  4540 D ActivityTaskManager: 
+setAppVisibility(Token{7e6d80c ActivityRecord{172116121 u0 
+com.oplus.stdsp/.extappdetail.installfinish.InstallFinishActivity t14066}}, 
+visible=true):  visible=true mVisibleRequested=false
+  08-11 07:30:46.118  2745  3220 D OplusAppDetailsManager: 
+saveAppDetailsConfig End
+  08-11 07:30:46.118  2745  4540 D ActivityTaskManager: 
+setVisibility(Token{7e6d80c ActivityRecord{172116121 u0 
+com.oplus.stdsp/.extappdetail.installfinish.InstallFinishActivity t14066}}, 
+visible=true) defer commitVisibility for transition collecting
+  08-11 07:30:46.119  2745  4029 D BackgroundInstallControlService: Package 
+event received: 0
+  08-11 07:30:46.121  2745  4540 D WindowManager: setFrameRateStart invalid 
+typeId return!
+  08-11 07:30:46.122  2745  4540 D WindowManager: setFrameRateStart invalid 
+typeId return!
+  08-11 07:32:12.131  2745  3261 E OplusThermalStats: Error getting package 
+info: com.example.retail_mind
+  08-11 07:32:12.131  2745  4759 D OplusEapManager: mTargetExitName 
+:com.oplus.stdsp
+  08-11 07:32:12.132  2745  3280 D VRR [OPlusRefreshRateService]: 
+handleFrontAppChange pkgName: null
+  08-11 07:32:12.141  2745  4759 D OplusAppSwitchRuleInfo: 
+generateAppEnterInfo - launch_source_type =  , launch_source_traceid = 
+  08-11 07:32:12.141  2745  4759 D OplusAppSwitchRuleInfo: 
+generateAppEnterInfo - launch_source_type =  , launch_source_traceid = 
+  08-11 07:32:12.142  2745  4759 D OplusAppSwitchRuleInfo: 
+generateAppEnterInfo - launch_source_type =  , launch_source_traceid = 
+  08-11 07:32:12.143  2745  4759 D OplusAppSwitchRuleInfo: 
+generateAppEnterInfo - launch_source_type =  , launch_source_traceid = 
+  08-11 07:32:12.148  2745  4523 D FlexibleTaskController: check task which 
+not have enough child, isInSingleWhiteList:false isCloneTask:false
+  08-11 07:32:12.148 12026 12026 D ResourcesManagerExtImpl: 
+applyConfigurationToAppResourcesLocked app.getDisplayId() return 
+callback.displayId:-1
+  08-11 07:32:12.149  2745  4759 D OplusAppSwitchRuleInfo: 
+generateAppEnterInfo - launch_source_type =  , launch_source_traceid = 
+  08-11 07:32:12.149  2745  4759 D OplusAppSwitchRuleInfo: 
+generateAppEnterInfo - launch_source_type =  , launch_source_traceid = 
+  08-11 07:32:12.150  2745  4759 D OplusAppSwitchRuleInfo: 
+generateAppEnterInfo - launch_source_type =  , launch_source_traceid = 
+  08-11 07:32:12.152  2745  4759 D OplusAppSwitchRuleInfo: 
+generateAppEnterInfo - launch_source_type =  , launch_source_traceid = 
+  08-11 07:32:12.153  2745  4759 D OplusAppSwitchRuleInfo: 
+generateAppEnterInfo - launch_source_type =  , launch_source_traceid = 
+  08-11 07:32:12.154  2745  4759 D OplusEapManager: mTargetEnterName 
+:com.example.retail_mind
+  08-11 07:32:12.155  2745  3280 D VRR [OPlusRefreshRateService]: 
+handleFrontAppChange pkgName: com.example.retail_mind
+  08-11 07:32:12.155  2745  4759 D OplusAppSwitchRuleInfo: 
+generateActivityEnterInfo - launch_source_type =  , launch_source_traceid = 
+  08-11 07:32:12.156  2745  4523 D OplusBatteryServiceFeature: 
+setSmartCoolDown: coolDown = 3, normalCoolDown = 3, pkgName = 
+com.example.retail_mind
+  08-11 07:32:12.164 12026 12026 E AndroidRuntime: FATAL EXCEPTION: main
+  08-11 07:32:12.164 12026 12026 E AndroidRuntime: Process: 
+com.example.retail_mind, PID: 12026
+> 08-11 07:32:12.164 12026 12026 E AndroidRuntime: java.lang.RuntimeException: 
+Unable to get provider androidx.startup.InitializationProvider: a6.b: 
+java.lang.RuntimeException: Failed to create an instance of class 
+androidx.work.impl.WorkDatabase.canonicalName
+  08-11 07:32:12.164 12026 12026 E AndroidRuntime: 	at 
+android.app.ActivityThread.installProvider(ActivityThread.java:9511)
+  08-11 07:32:12.164 12026 12026 E AndroidRuntime: 	at 
+android.app.ActivityThread.installContentProviders(ActivityThread.java:9015)
+  08-11 07:32:12.164 12026 12026 E AndroidRuntime: 	at 
+android.app.ActivityThread.handleBindApplication(ActivityThread.java:8645)
+  08-11 07:32:12.164 12026 12026 E AndroidRuntime: 	at android.app.ActivityThre
+ad.-$$Nest$mhandleBindApplication(ActivityThread.java:0)
+  08-11 07:32:12.164 12026 12026 E AndroidRuntime: 	at 
+android.app.ActivityThread$H.handleMessage(ActivityThread.java:2813)
+  08-11 07:32:12.164 12026 12026 E AndroidRuntime: 	at 
+android.os.Handler.dispatchMessage(Handler.java:115)
+  08-11 07:32:12.164 12026 12026 E AndroidRuntime: 	at 
+android.os.Looper.loopOnce(Looper.java:302)
+  08-11 07:32:12.164 12026 12026 E AndroidRuntime: 	at 
+android.os.Looper.loop(Looper.java:412)
+  08-11 07:32:12.164 12026 12026 E AndroidRuntime: 	at 
+android.app.ActivityThread.main(ActivityThread.java:9998)
+  08-11 07:32:12.164 12026 12026 E AndroidRuntime: 	at 
+java.lang.reflect.Method.invoke(Native Method)
+  08-11 07:32:12.164 12026 12026 E AndroidRuntime: 	at com.android.internal.os.
+RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:613)
+  08-11 07:32:12.164 12026 12026 E AndroidRuntime: 	at 
+com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1074)
+> 08-11 07:32:12.164 12026 12026 E AndroidRuntime: Caused by: a6.b: 
+java.lang.RuntimeException: Failed to create an instance of class 
+androidx.work.impl.WorkDatabase.canonicalName
+  08-11 07:32:12.164 12026 12026 E AndroidRuntime: 	at o3.a.b(r8-map-id-79e8580
+688a64a96b07591350e8596711bc897046b95e300d28925f581f1150f:105)
+  08-11 07:32:12.164 12026 12026 E AndroidRuntime: 	at o3.a.a(r8-map-id-79e8580
+688a64a96b07591350e8596711bc897046b95e300d28925f581f1150f:84)
+  08-11 07:32:12.164 12026 12026 E AndroidRuntime: 	at androidx.startup.Initial
+izationProvider.onCreate(r8-map-id-79e8580688a64a96b07591350e8596711bc897046b95
+e300d28925f581f1150f:55)
+  08-11 07:32:12.164 12026 12026 E AndroidRuntime: 	at 
+android.content.ContentProvider.attachInfo(ContentProvider.java:2707)
+  08-11 07:32:12.164 12026 12026 E AndroidRuntime: 	at 
+android.content.ContentProvider.attachInfo(ContentProvider.java:2676)
+  08-11 07:32:12.164 12026 12026 E AndroidRuntime: 	at 
+android.app.ActivityThread.installProvider(ActivityThread.java:9506)
+  08-11 07:32:12.164 12026 12026 E AndroidRuntime: 	... 11 more
+> 08-11 07:32:12.164 12026 12026 E AndroidRuntime: Caused by: 
+java.lang.RuntimeException: Failed to create an instance of class 
+androidx.work.impl.WorkDatabase.canonicalName
+  08-11 07:32:12.164 12026 12026 E AndroidRuntime: 	at c4.n.<init>(r8-map-id-79
+e8580688a64a96b07591350e8596711bc897046b95e300d28925f581f1150f:1162)
+  08-11 07:32:12.164 12026 12026 E AndroidRuntime: 	at androidx.work.WorkManage
+rInitializer.b(r8-map-id-79e8580688a64a96b07591350e8596711bc897046b95e300d28925
+f581f1150f:66)
+  08-11 07:32:12.164 12026 12026 E AndroidRuntime: 	at o3.a.b(r8-map-id-79e8580
+688a64a96b07591350e8596711bc897046b95e300d28925f581f1150f:92)
+  08-11 07:32:12.164 12026 12026 E AndroidRuntime: 	... 16 more
+  08-11 07:32:12.170  2745  3874 D ActivityManager: 
+reportOneUidFrozenStateChanged uid 10363 frozen = false
+  08-11 07:32:12.173  2745  5561 D ActivityManager: sync unfroze 10535 
+com.oplus.securityguard for 7
+  08-11 07:32:12.176  2745  5178 W OplusEapManager handleErrorInfo sendEvent: 
+: com.example.retail_mind happenedcrash
+  08-11 07:32:12.179  2745  4029 D BackgroundInstallControlService: Package 
+event received: 0
+  08-11 07:32:12.183  2745  3746 W OplusSelfProtectManager: 
+pkg[com.oplus.crashbox] not in policy list
+  08-11 07:32:12.185  2745  5178 D OplusDexAotCrashController: aotCrashCount=3 
+CrashCount=5 crashTimeWindow=3600000
+  08-11 07:32:12.185  2745  5178 D OplusDexAotCrashController: prepare to 
+delete com.example.retail_mind aot files...aot crash time: 3, total crash 
+time:3
+  08-11 07:32:12.185  2745  5178 W ActivityTaskManager:   Force finishing 
+activity com.example.retail_mind/.MainActivity
+  08-11 07:32:12.187  2745 12047 I DropBoxManagerService: add 
+tag=data_app_crash isTagEnabled=true flags=0x2
+  08-11 07:32:12.187  4230  4310 V WindowManagerShell: Transition requested 
+(#846): android.os.BinderProxy@af8fbbd TransitionRequestInfo { type = CLOSE, 
+triggerTask = TaskInfo{userId=0 taskId=14070 effectiveUid=10391 displayId=0 
+isRunning=true baseIntent=Intent { act=android.intent.action.MAIN 
+cat=[android.intent.category.LAUNCHER] flg=0x10000000 
+pkg=com.example.retail_mind cmp=com.example.retail_mind/.MainActivity 
+mCallingUid=10232 } baseActivity=ComponentInfo{com.example.retail_mind/com.exam
+ple.retail_mind.MainActivity} topActivity=ComponentInfo{com.example.retail_mind
+/com.example.retail_mind.MainActivity} origActivity=null realActivity=Component
+Info{com.example.retail_mind/com.example.retail_mind.MainActivity}
+  08-11 07:32:12.187  4230  4310 V WindowManagerShell:  numActivities=1 
+lastActiveTime=60370657 supportsSplitScreenMultiWindow=true 
+supportsMultiWindow=true supportsPocketStudioMultiWindow=true 
+isInFlexibleEmbedded = false uid = 10391 pid = 12026 resizeMode=1 
+isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 
+token=WCT{android.window.IWindowContainerToken$Stub$Proxy@9e4f5b2} 
+topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false 
+launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 
+displayCutoutSafeInsets=Rect(0, 0 - 0, 0)
+  08-11 07:32:12.187  4230  4310 V WindowManagerShell:  
+topActivityInfo=ActivityInfo{3050903 com.example.retail_mind.MainActivity} 
+launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=true 
+isVisible=true isVisibleRequested=true isTopActivityNoDisplay=false 
+isSleeping=false locusId=null displayAreaFeatureId=1 
+isTopActivityTransparent=false isActivityStackTransparent=false 
+lastNonFullscreenBounds=Rect(279, 696 - 801, 1776) capturedLink=null 
+capturedLinkTimestamp=0 requestedVisibleTypes=-9 
+topActivityRequestOpenInBrowserEducationTimestamp=0
+  08-11 07:32:12.187  4230  4310 V WindowManagerShell:  
+appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false 
+topActivityInOplusCompatMode=false eligibleForLetterboxEducation= false 
+isLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false 
+eligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false 
+isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 
+topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 
+topActivityLetterboxHeight=-1 topActivityAppBounds=Rect(0, 0 - 1080, 2400) 
+isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false 
+hasMinAspectRatioOverride=false topActivityLetterboxBounds=null 
+cameraCompatTaskInfo=CameraCompatTaskInfo { 
+freeformCameraCompatMode=inactive}} topActivityMainWindowFrame=null 
+topActivityLetterboxInsets=Rect(0, 0 - 0, 0)
+  08-11 07:32:12.187  4230  4310 V WindowManagerShell:  mOplusExtraBundle = 
+Bundle[mParcelledData.dataSize=1476]}, pipChange = null, remoteTransition = 
+null, displayChange = null, flags = 16, debugId = 846 }
+  08-11 07:32:12.188  2745  5178 D ActivityTaskManager: 
+setAppVisibility(Token{603ad08 ActivityRecord{243049253 u0 
+com.example.retail_mind/.MainActivity t14070 f}}}, visible=false):  
+visible=true mVisibleRequested=true
+  08-11 07:32:12.188  2745  5178 D ActivityTaskManager: 
+setVisibility(Token{603ad08 ActivityRecord{243049253 u0 
+com.example.retail_mind/.MainActivity t14070 f}}}, visible=false) defer 
+commitVisibility for transition collecting
+  08-11 07:32:12.190  2745  5178 D TaskFragmentExtImpl: resumeTopActivity 
+Launcher ,resume while pausing ActivityRecord{81254060 u0 
+com.android.launcher/.Launcher t5}
+  08-11 07:32:12.190  2745  5178 I OplusAccessController: enter 
+isIgnoreAppSwitchActivity
+  08-11 07:32:12.190  2745  5178 I OplusAccessController: enter 
+isIgnoreAppSwitchActivity and intent != null
+  08-11 07:32:12.190  2745  5178 I OplusAccessController: enter 
+isIgnoreAppSwitchActivity and componentName != null
+  08-11 07:32:12.190  2745  5178 I OplusAccessController: enter 
+isIgnoreAppSwitchActivity and packageName&activity is not Empty
+  08-11 07:32:12.191  2745  5178 D RefreshRate: Transition is playing, so 
+don't do app switch boost.
+  08-11 07:32:12.191  2745  5178 D ActivityTaskManager: 
+setAppVisibility(Token{4d442dc ActivityRecord{81254060 u0 
+com.android.launcher/.Launcher t5}}, visible=true):  visible=false 
+mVisibleRequested=false
+  08-11 07:32:12.191  2745  5178 D WindowManager: 
+NFW_setClientVisible:ActivityRecord{81254060 u0 com.android.launcher/.Launcher 
+t5} clientVisible:true
+  08-11 07:32:12.192  2745  5178 D ActivityTaskManager: 
+setVisibility(Token{4d442dc ActivityRecord{81254060 u0 
+com.android.launcher/.Launcher t5}}, visible=true) defer commitVisibility for 
+transition collecting
+  08-11 07:32:12.193  2745  5178 D ActivityTaskManager: onWindowFocusChanged 
+Task{3d851ae #5 type=home I=com.android.launcher/.Launcher} would transfer to 
+compact
+  08-11 07:32:12.193  2745  3239 I UserAwareMgr: handleTopAppChanged: 
+com.android.launcher, pid: 4416, uid: 10245
+  08-11 07:32:12.193  2745  5178 D ActivityTaskManager: 
+NFW_setLastResumedActivityUncheckLocked:true r:ActivityRecord{81254060 u0 
+com.android.launcher/.Launcher t5} currentFocus:null
+  08-11 07:32:12.193  2745  5178 D QuickBackInputPolicy: 
+hasMultiChildrenInTask: false
+  08-11 07:32:12.193  2745  5178 D WindowManager: 
+NFW_findFocusedWindowIfNeeded:Window{98dd43c u0 
+com.android.launcher/com.android.launcher.Launcher} mCurrentFocus:null
+  08-11 07:32:12.194  2745  5178 D QuickBackInputPolicy: 
+hasMultiChildrenInTask: false
+  08-11 07:32:12.194  2745  5178 V WindowManager: Changing focus from null to 
+Window{98dd43c u0 
+com.android.launcher/com.android.launcher.Launcher},diplayid=0
+  08-11 07:32:12.194  2745 12047 D DropBoxManagerService: file :: 
+/data/system/dropbox/data_app_crash@1786413732190.txt
+  08-11 07:32:12.195  2745  5178 D WindowManager: setFrameRateStart invalid 
+typeId return!
+  08-11 07:32:12.196  2745  5178 D WindowManager: setFrameRateStart invalid 
+typeId return!
+  08-11 07:32:12.197  2745  5178 D FlexibleTaskController: onTaskFocusChanged 
+prevTask:Task{68942ab #14070 type=standard 
+I=com.example.retail_mind/.MainActivity} ,currentTask:Task{3d851ae #5 
+type=home I=com.android.launcher/.Launcher}, reason: resumeTopActivity - 
+onActivityStateChanged
+  08-11 07:36:31.775  4803  4852 D SubsysRadioIndication[0]: 
+radioLinkLatencyInfoInd
+  08-11 07:36:31.775  4803  4852 D SubsysRadioIndication[0]: notify enter
+  08-11 07:36:31.775  4803  4803 D NetworkService[0]: handleMessage what:1008
+  08-11 07:36:31.776  4803  4803 D NetworkService[0]: 
+EVENT_REG_LINK_LATENCY_INFO_CHANGE ulLatency:-1
+  08-11 07:36:31.865  4230  4340 I SystemUi--Statusbar: 
+OplusNetworkSpeedControllExImpl-->updateNetworkSpeed: 
+isConnected:true,isSwitchOn:true,isSuspend:false,isPause:false
+  08-11 07:36:31.869  4230  4340 I SystemUi--Statusbar: 
+OplusNetworkSpeedControllExImpl-->getTotalByte: totalRxBytes:3678361649,totalTx
+Bytes:1880710797,loopbackTxBytes:107734010,loopbackRxBytes:107734010 
+,totalBytes:5343604426
+  08-11 07:36:31.971  1823  2070 I SDM     : DisplayBase::CommitThread: 
+Received idle timeout, panel: video, timeout: 70000 us
+  08-11 07:36:32.003  2745  3261 E BluetoothPowerStatsCollector: Cannot 
+acquire BluetoothActivityEnergyInfo
+  08-11 07:36:32.003  2745  3261 E BluetoothPowerStatsCollector: 
+java.util.concurrent.ExecutionException: java.lang.RuntimeException: error: 11
+  08-11 07:36:32.003  2745  3261 E BluetoothPowerStatsCollector: 	at 
+java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:372)
+  08-11 07:36:32.003  2745  3261 E BluetoothPowerStatsCollector: 	at 
+java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2072)
+  08-11 07:36:32.003  2745  3261 E BluetoothPowerStatsCollector: 	at com.androi
+d.server.power.stats.BluetoothPowerStatsCollector.collectBluetoothActivityInfo(
+BluetoothPowerStatsCollector.java:192)
+  08-11 07:36:32.003  2745  3261 E BluetoothPowerStatsCollector: 	at com.androi
+d.server.power.stats.BluetoothPowerStatsCollector.collectStats(BluetoothPowerSt
+atsCollector.java:155)
+  08-11 07:36:32.003  2745  3261 E BluetoothPowerStatsCollector: 	at com.androi
+d.server.power.stats.PowerStatsCollector.collectAndDeliverStats(PowerStatsColle
+ctor.java:176)
+  08-11 07:36:32.003  2745  3261 E BluetoothPowerStatsCollector: 	at com.androi
+d.server.power.stats.PowerStatsCollector$$ExternalSyntheticLambda0.run(D8$$Synt
+heticClass:0)
+  08-11 07:36:32.003  2745  3261 E BluetoothPowerStatsCollector: 	at 
+android.os.Handler.handleCallback(Handler.java:1027)
+  08-11 07:36:32.003  2745  3261 E BluetoothPowerStatsCollector: 	at 
+android.os.Handler.dispatchMessage(Handler.java:108)
+  08-11 07:36:32.003  2745  3261 E BluetoothPowerStatsCollector: 	at 
+android.os.Looper.loopOnce(Looper.java:302)
+  08-11 07:36:32.003  2745  3261 E BluetoothPowerStatsCollector: 	at 
+android.os.Looper.loop(Looper.java:412)
+  08-11 07:36:32.003  2745  3261 E BluetoothPowerStatsCollector: 	at 
+android.os.HandlerThread.run(HandlerThread.java:85)
+> 08-11 07:36:32.003  2745  3261 E BluetoothPowerStatsCollector: Caused by: 
+java.lang.RuntimeException: error: 11
+  08-11 07:36:32.003  2745  3261 E BluetoothPowerStatsCollector: 	at com.androi
+d.server.power.stats.BluetoothPowerStatsCollector$1.onBluetoothActivityEnergyIn
+foError(BluetoothPowerStatsCollector.java:181)
+  08-11 07:36:32.003  2745  3261 E BluetoothPowerStatsCollector: 	at android.bl
+uetooth.BluetoothAdapter$OnBluetoothActivityEnergyInfoProxy.lambda$onBluetoothA
+ctivityEnergyInfoAvailable$0(BluetoothAdapter.java:1072)
+  08-11 07:36:32.003  2745  3261 E BluetoothPowerStatsCollector: 	at android.bl
+uetooth.BluetoothAdapter$OnBluetoothActivityEnergyInfoProxy$$ExternalSyntheticL
+ambda1.run(D8$$SyntheticClass:0)
+  08-11 07:36:32.003  2745  3261 E BluetoothPowerStatsCollector: 	at com.androi
+d.server.SystemServerInitThreadPool$$ExternalSyntheticLambda0.execute(D8$$Synth
+eticClass:0)
+  08-11 07:36:32.003  2745  3261 E BluetoothPowerStatsCollector: 	at android.bl
+uetooth.BluetoothAdapter$OnBluetoothActivityEnergyInfoProxy.onBluetoothActivity
+EnergyInfoAvailable(BluetoothAdapter.java:1070)
+  08-11 07:36:32.003  2745  3261 E BluetoothPowerStatsCollector: 	at android.bl
+uetooth.IBluetoothActivityEnergyInfoListener$Stub.onTransact(IBluetoothActivity
+EnergyInfoListener.java:98)
+  08-11 07:36:32.003  2745  3261 E BluetoothPowerStatsCollector: 	at 
+android.os.Binder.execTransactInternal(Binder.java:1444)
+  08-11 07:36:32.003  2745  3261 E BluetoothPowerStatsCollector: 	at 
+android.os.Binder.execTransact(Binder.java:1378)
+  08-11 07:36:32.256  1644  1683 E TetherController: property_get 
+sys.radio.data.modem_share_flag return 0, 1!
+  08-11 07:36:32.270  2745  4069 D OplusTetheringStatistician: get tethering 
+traffic from mobile data, slotIndex: 0; entry: 0; rx bytes: 811708105; tx 
+bytes: 182837155
+  08-11 07:36:32.271  4674  5157 V MonthTrafficAlert: getWarningNotification 
+subId:1 numWarningNotificaion:0
+  08-11 07:36:32.273  2745  4069 D OplusTetheringNotification: 
+showTrafficConsumptionNotification, id = 1, mNetworkDataType = 2, title = 1 
+device is connected to your mobile data hotspot.
+  08-11 07:36:32.275  2745  4069 D 
+NotificationService--OplusNotificationFixHelper: fixAppIcon: pkg=android
+  08-11 07:36:32.275  2745  4069 D 
+NotificationService--OplusNotificationFixHelper: fixAppIcon: appIcon = null, 
+pkg = android
+  08-11 07:36:32.275  2745  4069 D NotificationService--NotificationRecord: 
+isSupportRearLight , isRearLight = false mLedRM = false isMultilLed = false
+  08-11 07:36:32.275  2745  4069 I OplusStatusBarManagerServiceEnhance:  
+getTopIsFullscreen mTopIsFullscreen: false
+  08-11 07:36:32.277  2745  2745 D 
+NotificationService--OplusNotificationManagerServiceExtImpl: 
+isForwardToAssistants: false, case : Is in mMcsNotInterceptPkgList or is 
+isSystemApp
+  08-11 07:36:32.277  2745  2745 D NotificationService: This application 
+enqueue notifications is not need postDelayed
+  08-11 07:36:32.299  4230  4230 I SystemUi--Notification: 
+OplusLiveAlertNotificationsRepository-->onRankingApplied
+  08-11 07:36:32.312  4230  4230 I PluginSeedling--Track: 
+RequestHandler-->notificationUpdated 0|android|0|null|1000 postTime: 
+1786413992275
+  08-11 07:36:32.312  4230  4230 E LockScreenNotificationDispatcherImp: 
+updateNotificationListOnKg size:0
+  08-11 07:36:32.319  4230  4230 W SystemUi--Notification: 
+OplusNotificationGroupExtImpl-->setChildrenExpanded: groupHeader is null
+  08-11 07:36:32.320  4230  4230 I SystemUi--Notification: 
+LockScreenNotificationDispatcherImp-->updateNotificationListOnKg resultCode: 0
+  08-11 07:36:32.357  4230  4230 D OplusNotificationDateTimeView: setTime 
+mSettingTimeMillis 1786413992273, mSettingLocalDateTime 2026-08-11T07:36:00.273
+  08-11 07:36:32.369  4230  4230 D OplusNotificationDateTimeView: setTime 
+mSettingTimeMillis 1786413992273, mSettingLocalDateTime 2026-08-11T07:36:00.273
+  08-11 07:36:32.371  4230  4230 D OplusNotificationDateTimeView: setTime 
+mSettingTimeMillis 1786413992273, mSettingLocalDateTime 2026-08-11T07:36:00.273
+  08-11 07:36:32.374  4230  4230 I SystemUi--Notification: 
+OplusNotificationTempla-->resolveContentMargin: marginTop=96 
+isChildInGroup=false hasSubtitle=true params.topMargin=96
+  08-11 07:36:32.374  4230  4230 W SystemUi--Notification: 
+OplusNotificationGroupExtImpl-->setChildrenExpanded: groupHeader is null
+  08-11 07:36:32.376  4230  4230 E LockScreenNotificationDispatcherImp: 
+updateNotificationListOnKg size:0
+  08-11 07:36:32.383  4230  4230 W SystemUi--Notification: 
+OplusNotificationGroupExtImpl-->setChildrenExpanded: groupHeader is null
+  08-11 07:36:32.384  4230  4230 I SystemUi--Notification: 
+LockScreenNotificationDispatcherImp-->updateNotificationListOnKg resultCode: 0
+  08-11 07:36:32.467  4803  4803 D 
+SubsysEventListenerManager-SubsysTelephonyCallback[0]: onDataActivity
+  08-11 07:36:32.467  4230  4230 D Tile.OplusCellularTile: refreshState: tile 
+not listening, ignore
+  08-11 07:36:32.468  2745  4069 I OplusWifiSarManager: Received Data State 
+Change: 3
+  08-11 07:36:32.468  4803  4803 D DataService[0]: onDataActivity direction:3
+  08-11 07:36:32.468  2745  4069 I OplusWifiSarManager: mWifiConnected: false 
+mWifiState: false
+  08-11 07:36:32.469  2745  4069 D OplusWifiSarManager: set wifi_dbs_enable to 
+false
+  08-11 07:36:32.469  2745  4069 D OplusWifiSarManager: wifiBand 
+mWifi2gState:false mWifi5gState: true mWifi5gBand:WIFI_5G_BAND4 
+mWifi6gBand:WIFI_5G_DISABLE
+  08-11 07:36:32.469  2745  4069 I OplusWifiSarManager: sar sensor state:
+  08-11 07:36:32.469  2745  4069 I OplusWifiSarManager: sensor index: 0, 
+state: null
+
+

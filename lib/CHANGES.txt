@@ -1,0 +1,12 @@
+RETAIL MIND — AUDIT FIX PASS
+Modified:
+- sale_service.dart: local stock validation no longer blocks billing when catalog is unavailable; unknown/unsynced products are not rejected solely because local catalog lacks them.
+- sync_service.dart: legacy sync_sale queue items now normalize to JSON /api/invoices/sync instead of form-data.
+- session_management.dart: local 7-day session expiry is enforced offline as well as online.
+- secure_token_storage.dart: rotateKey now actually re-encrypts known scoped encrypted session records before swapping the key.
+- local_storage_service.dart: saveSales persists the supplied merged list without reading and merging the same Hive list again.
+- sales_dedup_helper.dart: fingerprints use business_date before sale_date.
+- attendance_page.dart: backend reconciliation is explicitly treated as authoritative before initial attendance fetch.
+
+Removed from the fixed source set:
+- analytics_engine(20260813-042157).dart (duplicate AnalyticsEngine implementation).
