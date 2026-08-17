@@ -25,6 +25,13 @@ jobs:
           rm -rf .mirror-source
           git clone --depth 1 --branch main https://github.com/Gowtham518250/app_private.git .mirror-source
           rm -rf .mirror-source/.git
+          # GitHub Apps may not have the workflow scope required to push
+          # workflow files. Preserve source workflows under a backup-only path.
+          if [ -d .mirror-source/.github/workflows ]; then
+            mkdir -p _source_github/workflows
+            cp -a .mirror-source/.github/workflows/. _source_github/workflows/
+          fi
+          rm -rf .mirror-source/.github
           find . -mindepth 1 -maxdepth 1 ! -name .git ! -name .github ! -name .mirror-source -exec rm -rf {} +
           cp -a .mirror-source/. .
           rm -rf .mirror-source
